@@ -1,14 +1,14 @@
-<?php include 'head-logged.php'; ?>
+<?php include 'head.php'; ?>
 
 <main>
 	<!-- |||||||||||||||||||||||||||||||||||||||| -->
 	<!-- Seccion Hero  [↓] ------------------------ -->
 	<!-- |||||||||||||||||||||||||||||||||||||||| -->
-	<section id="hero" class="hero hero-recursos">
+	<section id="hero" class="hero hero-recursos d-flex align-items-center">
 		<div class="container">
 			<div class="row">
 				<div class="col-12 col-md-6 col-lg-6">
-					<h2>Juntos avanzamos_<br>Desde el sector automotriz, salud, cómputo sostenible, nube o inteligencia artificial estamos cerca de ti y queremos conectarte con los recursos y herramientas más recientes que te servirán para impulsar tu negocio.</h2>
+					<h3 class="nocaps"><span class="typewritter">Juntos avanzamos<span class="terminal">_</span></span><br>Desde el sector automotriz, salud, cómputo sostenible, nube o inteligencia artificial estamos cerca de ti y queremos conectarte con los recursos y herramientas más recientes que te servirán para impulsar tu negocio.</h3>
 				</div>
 			</div>
 		</div>
@@ -16,23 +16,40 @@
 	<!-- |||||||||||||||||||||||||||||||||||||||| -->
 	<!-- Seccion Hero  [↑] ------------------------ -->
 	<!-- |||||||||||||||||||||||||||||||||||||||| -->
-
+	<!-- |||||||||||||||||||||||||||||||||||||||| -->
+	<!-- Seccion 1 - AMD ARENA  [↓] ------------------------ -->
+	<!-- |||||||||||||||||||||||||||||||||||||||| -->
+	<nav class="innernav bg-sec3" id="top">
+		<div class="container-fluid">
+			<div class="row d-flex justify-content-center align-items-center p-3">
+				<div class="col-6 col-md-2 col-lg-2 text-center"><a href="#amdarena" class="nav-item c-02">AMD Arena <i class="fa-solid fa-angles-down"></i></a></div>
+				<div class="col-6 col-md-2 col-lg-2 text-center"><a href="#meetxpert" class="nav-item c-02">Meet the Expert <i class="fa-solid fa-angles-down"></i></a></div>
+				<div class="col-6 col-md-2 col-lg-2 text-center"><a href="#calendario" class="nav-item c-02">Eventos <i class="fa-solid fa-angles-down"></i></a></div>
+				<div class="col-6 col-md-2 col-lg-2 text-center"><a href="#news" class="nav-item c-02">AMS News <i class="fa-solid fa-angles-down"></i></a></div>
+				<div class="col-6 col-md-2 col-lg-2 text-center"><a href="#assetsmkt" class="nav-item c-02">Marketing <i class="fa-solid fa-angles-down"></i></a></div>
+				<div class="col-6 col-md-2 col-lg-2 text-center"><a href="#selltools" class="nav-item c-02">Herramientas <i class="fa-solid fa-angles-down"></i></a></div>
+			</div>
+		</div>
+	</nav>
+	<!-- |||||||||||||||||||||||||||||||||||||||| -->
+	<!-- Seccion Hero  [↑] ------------------------ -->
+	<!-- |||||||||||||||||||||||||||||||||||||||| -->
 
 	<!-- |||||||||||||||||||||||||||||||||||||||| -->
 	<!-- Seccion 1 - AMD ARENA  [↓] ------------------------ -->
 	<!-- |||||||||||||||||||||||||||||||||||||||| -->
-	<section class="bgsec-2">
+	<section class="bg-sec2" id="amdarena">
 		<div class="container">
 			<div class="row">
 				<div class="col-12">
 					<h2>AMD Arena</h2>
-					<p>¡Te presentamos AMD Arena! La plataforma de entrenamiento de AMD para el canal, donde encontrarás cursos de  temas para apoyar tu conocimiento sobre productos que tienes en tu catálogo o sobre contenidos de tu interés en varios idiomas.</p>
-					<p>Además, al estar registrado en el sitio de AMD Arena podrás acumular puntos y redimirlos directamente en esa plataforma.</p>
-					<p><b>Recuerda que cada curso te permite subir de nivel dentro de la plataforma AMD Arena, solo tienes que estar registrado para acceder al contenido.
-Entre los cursos más recomendables en español disponibles al momento tenemos:</b></p>
+					<p>¡Te presentamos AMD Arena! La plataforma de entrenamiento de AMD para el canal, donde encontrarás cursos de  temas para apoyar tu conocimiento sobre productos que tienes en tu catálogo o sobre contenidos de tu interés en varios idiomas. </p>
+
+					<p>Además, al estar registrado en el sitio de AMD Arena podrás acumular puntos y redimirlos directamente en esa plataforma. </p>
+
+					<p class="caps"><b>Recuerda que cada curso te permite subir de nivel dentro de la plataforma AMD Arena, solo tienes que estar registrado para acceder al contenido.<br>
+					Entre los cursos más recomendables en español disponibles al momento tenemos:</b></p> 
 				</div>
-			</div>
-			<div class="row">
 				<div class="col-12">
 					<nav class="d-flex justify-content-end" aria-label="Page navigation example">
 					  <ul class="pagination">
@@ -45,25 +62,25 @@ Entre los cursos más recomendables en español disponibles al momento tenemos:<
 					</nav>
 				</div>
 			</div>
-			<div class="row">
-				<div class="col-12 col-md-6 col-lg-6 feeded-post">
+			<div class="row d-flex justify-content-center">
+				<div class="col-12 col-md-5 col-lg-5 feeded-post">
 					<div class="thumbnail">
-						<img class="img-fluid" src="https://via.placeholder.com/800x400" alt="">
+						<img class="img-fluid" src="assets/img/amdarena01.png" alt="Un rendimiento de juego inigualable: NUEVO AMD Ryzen™ 7 5800X3D">
 					</div>
 					<div class="the-excerpt">
 						<h3 class="post-title">Un rendimiento de juego inigualable: NUEVO AMD Ryzen™ 7 5800X3D</h3>
-						<p>Lorem, ipsum dolor sit amet, consectetur adipisicing elit. Molestiae corrupti, reiciendis tenetur tempora eos ullam magnam nostrum ex cupiditate similique aliquam autem sed quo cumque voluptatum nulla ad maxime ratione.</p>
-						<a href="javascript:;" class="thepermalink btn-ghost">Tomar Curso</a>
+						<p>Si lo que quieres es lo mejor de lo mejor para tus momentos de juego, no busques más. El procesador AMD Ryzen™ 7 5800X3D con tecnología AMD 3D V-Cache™ es tu mejor aliado.</p>
+						<a href="https://arena.amd.com/course/626bacf5-f185-4e31-9890-08998434397e" target="_blank" class="thepermalink lebtn btn-ghost">Tomar el curso</a>
 					</div>
 				</div>
-				<div class="col-12 col-md-6 col-lg-6 feeded-post">
+				<div class="col-12 col-md-5 col-lg-5 feeded-post">
 					<div class="thumbnail">
-						<img class="img-fluid" src="https://via.placeholder.com/800x400" alt="">
+						<img class="img-fluid" src="assets/img/amdarena02.png" alt="Procesadores AMD Epyc™ para la industria de los servicios financieros">
 					</div>
 					<div class="the-excerpt">
 						<h3 class="post-title">Procesadores AMD Epyc™ para la industria de los servicios financieros</h3>
-						<p>Lorem, ipsum dolor sit amet, consectetur adipisicing elit. Molestiae corrupti, reiciendis tenetur tempora eos ullam magnam nostrum ex cupiditate similique aliquam autem sed quo cumque voluptatum nulla ad maxime ratione.</p>
-						<a href="javascript:;" class="thepermalink btn-ghost">Tomar Curso</a>
+						<p>En este curso se muestra que los procesadores AMD EPYC™ ofrecen el rendimiento, la flexibilidad y las funciones de seguridad que la industria de los servicios financieros necesita para afrontar los desafíos más exigentes.</p>
+						<a href="https://arena.amd.com/course/8962d0ec-fc1a-4a2b-9787-2d207da35df1" target="_blank" class="thepermalink lebtn btn-ghost">Tomar el curso</a>
 					</div>
 				</div>
 			</div>
@@ -76,14 +93,14 @@ Entre los cursos más recomendables en español disponibles al momento tenemos:<
 	<!-- |||||||||||||||||||||||||||||||||||||||| -->
 	<!-- Seccion 2 - MEET THE EXPERT  [↓] ------------------------ -->
 	<!-- |||||||||||||||||||||||||||||||||||||||| -->
-	<section class="bgsec-1">
+	<section class="bg-sec1" id="meetxpert">
 		<div class="container">
 			<div class="row">
-				<div class="col-12 col-md-6 col-lg-6">
+				<div class="col-12 col-md-8 col-lg-8">
 					<h2>Meet the expert</h2>
 					<p>Escucha y pregunta directamente a los especialistas de AMD sobre las novedades importantes para la región.<br>De las sesiones disponibles actualmente en tu idioma, te recomendamos las siguientes: </p>
 				</div>
-				<div class="col-12 col-md-6 col-lg-6">
+				<div class="col-12 col-md-4 col-lg-4">
 					<nav class="d-flex justify-content-end" aria-label="Page navigation example">
 					  <ul class="pagination">
 					    <li class="page-item"><a class="page-link" href="#"><i class="fa-solid fa-angles-left"></i></a></li>
@@ -95,51 +112,51 @@ Entre los cursos más recomendables en español disponibles al momento tenemos:<
 					</nav>
 				</div>
 			</div>
-			<div class="row">
-				<div class="col-12 feeded-post">
+			<div class="row d-flex justify-content-center">
+				<div class="col-10 feeded-post">
 					<div class="row">
 						<div class="col-12 col-md-6 col-lg-6">
 							<div class="thumbnail">
-								<img class="img-fluid" src="https://via.placeholder.com/800x400" alt="">
+								<img class="img-fluid" src="assets/img/meetEpxert01.png" alt="Tecnologías AMD PRO: Novedades de los procesadores AMD Ryzen™ PRO serie 6000">
 							</div>
 						</div>
 						<div class="col-12 col-md-6 col-lg-6">
 							<div class="the-excerpt">
-								<h3 class="post-title">Un rendimiento de juego inigualable: NUEVO AMD Ryzen™ 7 5800X3D</h3>
-								<p>Lorem, ipsum dolor sit amet, consectetur adipisicing elit. Molestiae corrupti, reiciendis tenetur tempora eos ullam magnam nostrum ex cupiditate similique aliquam autem sed quo cumque voluptatum nulla ad maxime ratione.</p>
-								<a href="javascript:;" class="thepermalink btn-ghost">Tomar Curso</a>
+								<h3 class="post-title">Tecnologías AMD PRO: Novedades de los procesadores AMD Ryzen™ PRO serie 6000</h3>
+								<p>Los nuevos procesadores móviles AMD Ryzen™ PRO serie 6000 ofrecen nuevas y asombrosas funciones, además de mejoras en rendimiento, que impulsan experiencias sobresalientes en plataformas empresariales premium.</p>
+								<a href="https://explore.amd.com/mte/jul-2022-commercial-es/register" target="_blank" class="thepermalink lebtn btn-ghost">Ver on demand</a>
 							</div>
 						</div>
 					</div>
 				</div>
-				<div class="col-12 feeded-post">
+				<div class="col-10 feeded-post">
 					<div class="row">
 						<div class="col-12 col-md-6 col-lg-6">
 							<div class="thumbnail">
-								<img class="img-fluid" src="https://via.placeholder.com/800x400" alt="">
+								<img class="img-fluid" src="assets/img/meetEpxert02.png" alt="La computadora del mañana: Windows 11 + AMD">
 							</div>
 						</div>
 						<div class="col-12 col-md-6 col-lg-6">
 							<div class="the-excerpt">
-								<h3 class="post-title">Un rendimiento de juego inigualable: NUEVO AMD Ryzen™ 7 5800X3D</h3>
-								<p>Lorem, ipsum dolor sit amet, consectetur adipisicing elit. Molestiae corrupti, reiciendis tenetur tempora eos ullam magnam nostrum ex cupiditate similique aliquam autem sed quo cumque voluptatum nulla ad maxime ratione.</p>
-								<a href="javascript:;" class="thepermalink btn-ghost">Tomar Curso</a>
+								<h3 class="post-title">La computadora del mañana: Windows 11 + AMD</h3>
+								<p>Descubre porqué una PC con Windows 11, procesador AMD Ryzen™ y gráficos Radeon™ ofrece un rendimiento ganador para las cargas de trabajo, la creación de contenido, la multitarea y los juegos de hoy en día.</p>
+								<a href="https://bit.ly/3Rf3OMG" target="_blank" class="thepermalink lebtn btn-ghost">Ver on demand</a>
 							</div>
 						</div>
 					</div>
 				</div>
-				<div class="col-12 feeded-post">
+				<div class="col-10 feeded-post">
 					<div class="row">
 						<div class="col-12 col-md-6 col-lg-6">
 							<div class="thumbnail">
-								<img class="img-fluid" src="https://via.placeholder.com/800x400" alt="">
+								<img class="img-fluid" src="assets/img/meetEpxert03.png" alt="AMD 2022: Lo más nuevo llega a Latinoamérica">
 							</div>
 						</div>
 						<div class="col-12 col-md-6 col-lg-6">
 							<div class="the-excerpt">
-								<h3 class="post-title">Un rendimiento de juego inigualable: NUEVO AMD Ryzen™ 7 5800X3D</h3>
-								<p>Lorem, ipsum dolor sit amet, consectetur adipisicing elit. Molestiae corrupti, reiciendis tenetur tempora eos ullam magnam nostrum ex cupiditate similique aliquam autem sed quo cumque voluptatum nulla ad maxime ratione.</p>
-								<a href="javascript:;" class="thepermalink btn-ghost">Tomar Curso</a>
+								<h3 class="post-title">AMD 2022: Lo más nuevo llega a Latinoamérica</h3>
+								<p>En este webinar hablaremos de nuevos productos y tecnologías, así como los próximos lanzamientos. Acompáñanos y aprende más sobre el momento tecnológico de AMD, además descubre lo que tenemos planeado para lo que resta del año en América Latina.</p>
+								<a href="https://bit.ly/3ymEATT" target="_blank" class="thepermalink lebtn btn-ghost">Registrarse</a>
 							</div>
 						</div>
 					</div>
@@ -154,7 +171,7 @@ Entre los cursos más recomendables en español disponibles al momento tenemos:<
 	<!-- |||||||||||||||||||||||||||||||||||||||| -->
 	<!-- Seccion 3- CALENDARIO DE EVENTOS  [↓] ------------------------ -->
 	<!-- |||||||||||||||||||||||||||||||||||||||| -->
-	<section class="geysec">
+	<section class="bg-sec3" id="calendario">
 		<div class="container">
 			<div class="row">
 				<div class="col-12 col-md-6 col-lg-6">
@@ -163,8 +180,8 @@ Entre los cursos más recomendables en español disponibles al momento tenemos:<
 				</div>
 				<div class="col-12 col-md-6 col-lg-6 justify-content-end">
 					<form class="datepicker">
-						<div class="row">
-							<div class="col-6">
+						<div class="row nop d-flex justify-content-end">
+							<div class="col-6 col-md-3 col-lg-3">
 								<select class="form-select" aria-label="Default select example">
 									<option value="0">Año</option>
 									<option value="2020">2020</option>
@@ -180,7 +197,7 @@ Entre los cursos más recomendables en español disponibles al momento tenemos:<
 									<option value="2030">2030</option>
 								</select>
 							</div>
-							<div class="col-6">
+							<div class="col-6 col-md-3 col-lg-3">
 								<select class="form-select" aria-label="Default select example">
 									<option value="01">Enero</option>
 									<option value="02">Febrero</option>
@@ -200,89 +217,57 @@ Entre los cursos más recomendables en español disponibles al momento tenemos:<
 					</form>
 				</div>
 			</div>
-			<div class="row">
-				<div class="col-12 col-md-6 col-lg-6 feeded-post">
+			<div class="row d-flex justify-content-center">
+				<div class="col-12 col-md-5 col-lg-5 feeded-post">
 					<div class="thumbnail">
 						<div class="post-date">
 							<span class="day">08</span>
 							<span class="monthyear">Julio 2022</span>
 						</div>
-						<img class="img-fluid" src="https://via.placeholder.com/800x400" alt="">
+						<img class="img-fluid" src="assets/img/eventos01.png" alt="Día del gamer">
 					</div>
 					<div class="the-excerpt">
-						<h3 class="post-title">Lorem ipsum dolor sit amet.</h3>
-						<p>Lorem, ipsum dolor sit amet, consectetur adipisicing elit. Molestiae corrupti, reiciendis tenetur tempora eos ullam magnam nostrum ex cupiditate similique aliquam autem sed quo cumque voluptatum nulla ad maxime ratione.</p>
-						<a href="javascript:;" class="thepermalink btn-ghost">Tomar Curso</a>
+						<h3 class="post-title">Día del gamer</h3>
+						<p>La comunidad de los gamers es una de las más grandes de latinoamérica y el mundo. Su existencia impulsa el desarrollo de nuevas tecnologías en procesadores y tarjetas gráficas, y ha sido la puerta al crecimiento de la industria. Festeja junto con nosotros el día que celebra a todos los gamers. </p>
 					</div>
 				</div>
-				<div class="col-12 col-md-6 col-lg-6 feeded-post">
+				<div class="col-12 col-md-5 col-lg-5 feeded-post">
 					<div class="thumbnail">
 						<div class="post-date">
-							<span class="day">08</span>
+							<span class="day">20</span>
 							<span class="monthyear">Julio 2022</span>
 						</div>
-						<img class="img-fluid" src="https://via.placeholder.com/800x400" alt="">
+						<img class="img-fluid" src="assets/img/eventos02.png" alt="Workshop Arena">
 					</div>
 					<div class="the-excerpt">
-						<h3 class="post-title">Lorem ipsum dolor sit amet.</h3>
-						<p>Lorem, ipsum dolor sit amet, consectetur adipisicing elit. Molestiae corrupti, reiciendis tenetur tempora eos ullam magnam nostrum ex cupiditate similique aliquam autem sed quo cumque voluptatum nulla ad maxime ratione.</p>
-						<a href="javascript:;" class="thepermalink btn-ghost">Tomar Curso</a>
+						<h3 class="post-title">Workshop Arena</h3>
+						<p>Un espacio de trabajo en el que aprenderás sobre las últimas tecnologías relacionadas con el retail y los productos y las tecnologías de AMD. ¡Obtén un panorama completo de la cadena productiva del retail con foco en la innovación.</p>
 					</div>
 				</div>
-				<div class="col-12 col-md-6 col-lg-6 feeded-post">
+				<div class="col-12 col-md-5 col-lg-5 feeded-post">
 					<div class="thumbnail">
 						<div class="post-date">
-							<span class="day">08</span>
+							<span class="day">06 - 12</span>
 							<span class="monthyear">Julio 2022</span>
 						</div>
-						<img class="img-fluid" src="https://via.placeholder.com/800x400" alt="">
+						<img class="img-fluid" src="assets/img/eventos03.png" alt="Brazil Game Show">
 					</div>
 					<div class="the-excerpt">
-						<h3 class="post-title">Lorem ipsum dolor sit amet.</h3>
-						<p>Lorem, ipsum dolor sit amet, consectetur adipisicing elit. Molestiae corrupti, reiciendis tenetur tempora eos ullam magnam nostrum ex cupiditate similique aliquam autem sed quo cumque voluptatum nulla ad maxime ratione.</p>
-						<a href="javascript:;" class="thepermalink btn-ghost">Tomar Curso</a>
+						<h3 class="post-title">Brazil Game Show</h3>
+						<p>En la EXPO CENTER NORTE de Sao Paulo se estará realizando uno de los eventos más importantes del año en cuanto a gaming se trata. Únete a la ‘partida’ y descubre los nuevos desarrollos que harán evolucionar la industria de los videojuegos. </p>
 					</div>
 				</div>
-				<div class="col-12 col-md-6 col-lg-6 feeded-post">
+				<div class="col-12 col-md-5 col-lg-5 feeded-post">
 					<div class="thumbnail">
 						<div class="post-date">
-							<span class="day">08</span>
-							<span class="monthyear">Julio 2022</span>
+							<span class="day">01- 04</span>
+							<span class="monthyear">Marzo 20223</span>
 						</div>
-						<img class="img-fluid" src="https://via.placeholder.com/800x400" alt="">
+						<img class="img-fluid" src="assets/img/eventos04.png" alt="ABA TechShow 2023">
 					</div>
 					<div class="the-excerpt">
-						<h3 class="post-title">Lorem ipsum dolor sit amet.</h3>
-						<p>Lorem, ipsum dolor sit amet, consectetur adipisicing elit. Molestiae corrupti, reiciendis tenetur tempora eos ullam magnam nostrum ex cupiditate similique aliquam autem sed quo cumque voluptatum nulla ad maxime ratione.</p>
-						<a href="javascript:;" class="thepermalink btn-ghost">Tomar Curso</a>
-					</div>
-				</div>
-				<div class="col-12 col-md-6 col-lg-6 feeded-post">
-					<div class="thumbnail">
-						<div class="post-date">
-							<span class="day">08</span>
-							<span class="monthyear">Julio 2022</span>
-						</div>
-						<img class="img-fluid" src="https://via.placeholder.com/800x400" alt="">
-					</div>
-					<div class="the-excerpt">
-						<h3 class="post-title">Lorem ipsum dolor sit amet.</h3>
-						<p>Lorem, ipsum dolor sit amet, consectetur adipisicing elit. Molestiae corrupti, reiciendis tenetur tempora eos ullam magnam nostrum ex cupiditate similique aliquam autem sed quo cumque voluptatum nulla ad maxime ratione.</p>
-						<a href="javascript:;" class="thepermalink btn-ghost">Tomar Curso</a>
-					</div>
-				</div>
-				<div class="col-12 col-md-6 col-lg-6 feeded-post">
-					<div class="thumbnail">
-						<div class="post-date">
-							<span class="day">08</span>
-							<span class="monthyear">Julio 2022</span>
-						</div>
-						<img class="img-fluid" src="https://via.placeholder.com/800x400" alt="">
-					</div>
-					<div class="the-excerpt">
-						<h3 class="post-title">Lorem ipsum dolor sit amet.</h3>
-						<p>Lorem, ipsum dolor sit amet, consectetur adipisicing elit. Molestiae corrupti, reiciendis tenetur tempora eos ullam magnam nostrum ex cupiditate similique aliquam autem sed quo cumque voluptatum nulla ad maxime ratione.</p>
-						<a href="javascript:;" class="thepermalink btn-ghost">Tomar Curso</a>
+						<h3 class="post-title">ABA TechShow 2023</h3>
+						<p>La tecnología es una herramienta cada vez más importantes para los profesionales del derecho, y ABA TECHSHOW es el espacio ideal para comprender de mejor manera como se unen estas industrias. Sé parte de este magno evento en la ciudad de Chicago, Illinois, y descubre los por menores del desarrollo tecnológico y legal. </p>
 					</div>
 				</div>
 			</div>
@@ -295,7 +280,7 @@ Entre los cursos más recomendables en español disponibles al momento tenemos:<
 	<!-- |||||||||||||||||||||||||||||||||||||||| -->
 	<!-- Seccion 4 - AMD NEWS  [↓] ------------------------ -->
 	<!-- |||||||||||||||||||||||||||||||||||||||| -->
-	<section class="bgsec-1">
+	<section class="bg-sec1" id="news">
 		<div class="container">
 			<div class="row">
 				<div class="col-12 col-md-6 col-lg-6">
@@ -315,51 +300,51 @@ Entre los cursos más recomendables en español disponibles al momento tenemos:<
 					</nav>
 				</div>
 			</div>
-			<div class="row">
-				<div class="col-12 feeded-post">
+			<div class="row d-flex justify-content-center">
+				<div class="col-10 feeded-post">
 					<div class="row">
 						<div class="col-12 col-md-6 col-lg-6">
 							<div class="thumbnail">
-								<img class="img-fluid" src="https://via.placeholder.com/800x400" alt="">
+								<img class="img-fluid" src="assets/img/News01.png" alt="">
 							</div>
 						</div>
 						<div class="col-12 col-md-6 col-lg-6">
 							<div class="the-excerpt">
-								<h3 class="post-title">Un rendimiento de juego inigualable: NUEVO AMD Ryzen™ 7 5800X3D</h3>
-								<p>Lorem, ipsum dolor sit amet, consectetur adipisicing elit. Molestiae corrupti, reiciendis tenetur tempora eos ullam magnam nostrum ex cupiditate similique aliquam autem sed quo cumque voluptatum nulla ad maxime ratione.</p>
-								<a href="javascript:;" class="thepermalink btn-ghost">Tomar Curso</a>
+								<h3 class="post-title">¡Revolucionamos las transmisiones deportivas en vivo!</h3>
+								<p>Descubre cómo AMD revolucionó la experiencia de visualización de las transmisiones en vivo de eventos deportivos al ser elegida por la marca Canon para optimizar su Sistema de Video Free Viewpoint; dotándola de un procesamiento superior en tiempo real para llevar a los espectadores a vivir una experiencia inmersiva sinigual.</p>
+								<a href="https://www.amd.com/en/press-releases/2022-06-28-amd-powers-real-time-ai-processing-the-edge-for-revolutionary-canon-free" target="_blank" class="thepermalink lebtn btn-ghost">Leer más</a>
 							</div>
 						</div>
 					</div>
 				</div>
-				<div class="col-12 feeded-post">
+				<div class="col-10 feeded-post">
 					<div class="row">
 						<div class="col-12 col-md-6 col-lg-6">
 							<div class="thumbnail">
-								<img class="img-fluid" src="https://via.placeholder.com/800x400" alt="">
+								<img class="img-fluid" src="assets/img/News02.png" alt="">
 							</div>
 						</div>
 						<div class="col-12 col-md-6 col-lg-6">
 							<div class="the-excerpt">
-								<h3 class="post-title">Un rendimiento de juego inigualable: NUEVO AMD Ryzen™ 7 5800X3D</h3>
-								<p>Lorem, ipsum dolor sit amet, consectetur adipisicing elit. Molestiae corrupti, reiciendis tenetur tempora eos ullam magnam nostrum ex cupiditate similique aliquam autem sed quo cumque voluptatum nulla ad maxime ratione.</p>
-								<a href="javascript:;" class="thepermalink btn-ghost">Tomar Curso</a>
+								<h3 class="post-title">AMD nombra a Mathew Hein como Chief Strategy Officer</h3>
+								<p>El recién nombrado estratega comercial aporta a AMD su vasta experiencia en la industria de tecnología en temas de planeación, desarrollo de negocio y visión para capitalizar oportunidades de negocio para la empresa. </p>
+								<a href="https://www.amd.com/en/press-releases/2022-06-22-amd-appoints-mathew-hein-chief-strategy-officer" target="_blank" class="thepermalink lebtn btn-ghost">Leer más</a>
 							</div>
 						</div>
 					</div>
 				</div>
-				<div class="col-12 feeded-post">
+				<div class="col-10 feeded-post">
 					<div class="row">
 						<div class="col-12 col-md-6 col-lg-6">
 							<div class="thumbnail">
-								<img class="img-fluid" src="https://via.placeholder.com/800x400" alt="">
+								<img class="img-fluid" src="assets/img/News03.png" alt="">
 							</div>
 						</div>
 						<div class="col-12 col-md-6 col-lg-6">
 							<div class="the-excerpt">
-								<h3 class="post-title">Un rendimiento de juego inigualable: NUEVO AMD Ryzen™ 7 5800X3D</h3>
-								<p>Lorem, ipsum dolor sit amet, consectetur adipisicing elit. Molestiae corrupti, reiciendis tenetur tempora eos ullam magnam nostrum ex cupiditate similique aliquam autem sed quo cumque voluptatum nulla ad maxime ratione.</p>
-								<a href="javascript:;" class="thepermalink btn-ghost">Tomar Curso</a>
+								<h3 class="post-title">¡Llega la nueva serie AMD Ryzen Embedded R2000!</h3>
+								<p>La nueve serie provee hasta 2 veces más núcleos y ofrece un rendimiento optimizado, mayor eficiencia energética para soluciones industriales, de visión artificial, Internet de las Cosas (IoT) y para soluciones de Thin-Client.</p>
+								<a href="https://www.amd.com/en/press-releases/2022-06-21-amd-announces-ryzen-embedded-r2000-series-optimized-performance-and-power" target="_blank" class="thepermalink lebtn btn-ghost">Leer más</a>
 							</div>
 						</div>
 					</div>
@@ -371,7 +356,148 @@ Entre los cursos más recomendables en español disponibles al momento tenemos:<
 	<!-- Seccion 4 - AMD NEWS  [↑] ------------------------ -->
 	<!-- |||||||||||||||||||||||||||||||||||||||| -->
 
+	<!-- |||||||||||||||||||||||||||||||||||||||| -->
+	<!-- Seccion 5 - DESCARGA DE ASSETS  [↓] ------------------------ -->
+	<!-- |||||||||||||||||||||||||||||||||||||||| -->
+	<section class="bg-sec3" id="assetsmkt">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<h2>Seleccón especial de assets de marketing</h2>
+					<p>Tenemos para ti una selección especial de assets en tu idioma y de la última campaña de AMD. ¡Descárgalos!</p>
+				</div>
+			</div>
+			<div class="row d-flex justify-content-center">
+				<div class="col-10 feeded-post">
+					<div class="row">
+						<div class="col-12 col-md-6 col-lg-6">
+							<div class="thumbnail">
+								<img class="img-fluid" src="assets/img/downloads01.png" alt="">
+							</div>
+						</div>
+						<div class="col-12 col-md-6 col-lg-6 d-flex align-items-center">
+							<div class="the-excerpt">
+								<p>Banner animado. Insértalo directamente en tu sitio web o en alguna presentación de ventas. Está listo para usarse.</p>
+								<a href="https://library.amd.com/media/?mediaId=04D58D4B-5839-4013-9C3B392CA8497088" target="_blank" class="thepermalink lebtn btn-ghost">¡Descárgalo! &nbsp; <i class="fa-solid fa-file-arrow-down"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-10 feeded-post">
+					<div class="row">
+						<div class="col-12 col-md-6 col-lg-6 d-flex align-items-center">
+							<div class="thumbnail">
+								<img class="img-fluid" src="assets/img/downloads02.png" alt="">
+							</div>
+						</div>
+						<div class="col-12 col-md-6 col-lg-6 d-flex align-items-center">
+							<div class="the-excerpt">
+								<p>Landing Page de AMD Ryzen 5000 Refresh y Ryzen 7 58000X3D. Crea una campaña de emailing y conéctalo a esta landing; de este modo obtén los datos de potenciales compradores. Está lista para hospedarla y lanzarla.</p>
+								<a href="https://library.amd.com/media/?mediaId=EBB531CA-CC64-4B6B-B15DB8415C351DF6" target="_blank" class="thepermalink lebtn btn-ghost">¡Descárgalo! &nbsp; <i class="fa-solid fa-file-arrow-down"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-10 feeded-post on-card">
+					<div class="row">
+						<div class="col-12 col-md-6 col-lg-6">
+							<div class="the-excerpt">
+								<h3 class="post-title">¡Encuentra todos los recursos de marketing DE AMD, por producto y campaña!</h3>
+								<p>Marketing HUB es un punto de accesso a todos los materiales de marketing de AMD disponibles en el formato, en el idioma y listos para utilizarse en el momento que los necesites. Navega el sitio y conoce todos los recursos que tenemos para ti.</p>
+								<a href="https://library.amd.com/media/" target="_blank" class="thepermalink lebtn btn-main">Ingresar a la Libreria</a>
+							</div>
+						</div>
+						<div class="col-12 col-md-6 col-lg-6">
+							<div class="thumbnail">
+								<img class="img-fluid" src="assets/img/downloadslib01.png" alt="">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- |||||||||||||||||||||||||||||||||||||||| -->
+	<!-- Seccion 5 - DESCARGA DE ASSETS  [↑] ------------------------ -->
+	<!-- |||||||||||||||||||||||||||||||||||||||| -->
+
+	<!-- |||||||||||||||||||||||||||||||||||||||| -->
+	<!-- Seccion 6 - HERRAMIENTAS DE VENTAS  [↓] -- -->
+	<!-- |||||||||||||||||||||||||||||||||||||||| -->
+	<section class="bg-sec1" id="selltools">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<h2>Herramienta Ventas</h2>
+					<p>Descubre el valor de los CPUs AMD EPYC™  y comparte con tus clientes los resultados.</p>
+					<p>Encuentra aquí las herramientas para calcular, comparar, medir el rendimiento, los costos y más, que te permitirán que tus clientes entiendan mejor tus propuestas. <a href="https://www.amd.com/es/processors/epyc-tools" target="_blank"><b>Conócelas aquí</b></a>:</p>
+				</div>
+			</div>
+			<div class="row nop">
+				<div class="col-12">
+					<nav class="d-flex justify-content-end" aria-label="Page navigation example">
+					  <ul class="pagination">
+					    <li class="page-item"><a class="page-link" href="#"><i class="fa-solid fa-angles-left"></i></a></li>
+					    <li class="page-item"><a class="page-link" href="#">1</a></li>
+					    <li class="page-item"><a class="page-link" href="#">2</a></li>
+					    <li class="page-item"><a class="page-link" href="#">3</a></li>
+					    <li class="page-item"><a class="page-link" href="#"><i class="fa-solid fa-angles-right"></i></a></li>
+					  </ul>
+					</nav>
+				</div>
+			</div>
+			<div class="row d-flex justify-content-center">
+				<div class="col-12 col-md-5 col-lg-5 feeded-post">
+					<div class="thumbnail">
+						<img class="img-fluid" src="assets/img/sales01.png" alt="Un rendimiento de juego inigualable: NUEVO AMD Ryzen™ 7 5800X3D">
+					</div>
+					<div class="the-excerpt">
+						<h3 class="post-title">Herramienta de selección de procesadores AMD EPYC™</h3>
+						<p>Es momento de poner a prueba el rendimiento, cantidad de núcleos y precio de los procesadores AMD EPYC™ con tu CPU actual.</p>
+						<a href="https://www.amd.com/en/processors/epyc-cpu-selector" target="_blank" class="thepermalink lebtn btn-ghost">¡Compara y gana!</a>
+					</div>
+				</div>
+				<div class="col-12 col-md-5 col-lg-5 feeded-post">
+					<div class="thumbnail">
+						<img class="img-fluid" src="assets/img/sales02.png" alt="Procesadores AMD Epyc™ para la industria de los servicios financieros">
+					</div>
+					<div class="the-excerpt">
+						<h3 class="post-title">Asesor de costos en la nube de AMD</h3>
+						<p>Obtén la información que requieres para estimar el ahorro al cambiar a instancias en la nube con tecnología AMD EPYC ™ al interior del mismo proveedor de servicios. El análisis de costos es con información en tiempo real.</p>
+						<a href="https://www.amd.com/en/processors/epyc-VirtTCOtool" target="_blank" class="thepermalink lebtn btn-ghost">¡Compara y gana!</a>
+					</div>
+				</div>
+				<div class="col-12 col-md-5 col-lg-5 feeded-post">
+					<div class="thumbnail">
+						<img class="img-fluid" src="assets/img/sales03.png" alt="Procesadores AMD Epyc™ para la industria de los servicios financieros">
+					</div>
+					<div class="the-excerpt">
+						<h3 class="post-title">Herramienta de estimación de CTP para bare metal y emisiones de gas de efecto invernadero de AMD EPYC™</h3>
+						<p>Está herramienta te permite calcular los consumos en emisiones de gas de efecto invernadero (GIE) y CTP, y comparar por servidor, núcleo, cantidad de racks, rendimiento y presupuesto para períodos de 3,4, o 5 años.</p>
+						<a href="https://www.amd.com/en/processors/epyc-bare-metal-tco-tool" target="_blank" class="thepermalink lebtn btn-ghost">¡Compara y gana!</a>
+					</div>
+				</div>
+				<div class="col-12 col-md-5 col-lg-5 feeded-post">
+					<div class="thumbnail">
+						<img class="img-fluid" src="assets/img/sales04.png" alt="Procesadores AMD Epyc™ para la industria de los servicios financieros">
+					</div>
+					<div class="the-excerpt">
+						<h3 class="post-title">Herramienta de cálculo de CTP para virtualización de servidores con AMD EPYC™</h3>
+						<p>Compara de manera fácil la solución de servidor x86 actual de tus clientes o prospectos versus lo que ofrecen los procesadores AMD EPYC™.</p>
+						<a href="https://cloudsolutions.amd.com/#/" target="_blank" class="thepermalink lebtn btn-ghost">¡Compara y gana!</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- |||||||||||||||||||||||||||||||||||||||| -->
+	<!-- Seccion 6 - HERRAMIENTAS DE VENTAS  [↑] -- -->
+	<!-- |||||||||||||||||||||||||||||||||||||||| -->
 
 </main>
+<!-- <div class="back2top" id="b2t">
+	<a href="#top"><i class="fa-solid fa-circle-up"></i></a>
+</div> -->
+
 
 <?php include 'footer.php'; ?>

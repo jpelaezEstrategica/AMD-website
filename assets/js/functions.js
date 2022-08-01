@@ -16,7 +16,34 @@
 	    })
 	})()
 	//Dropdowns de logged user
-	//var dropdownElementList = [].slice.call(document.querySelectorAll('.dropdown-toggle'))
-	//var dropdownList = dropdownElementList.map(function (dropdownToggleEl) {
-	//  return new bootstrap.Dropdown(dropdownToggleEl)
-	//})
+	var dropdownElementList = [].slice.call(document.querySelectorAll('.dropdown-toggle'))
+	var dropdownList = dropdownElementList.map(function (dropdownToggleEl) {
+	  return new bootstrap.Dropdown(dropdownToggleEl)
+	})
+
+	$(document).ready(function() {
+	    // back to top Show/Hide
+	    $('#b2t').hide();
+	    var elalto =  $(window).height();
+
+	    $(window).scroll(function() {
+	        if ($(document).scrollTop() > 1600) {
+	            $('#b2t').fadeIn('slow');
+	        }
+	        else {
+	            $('#b2t').fadeOut('slow');
+	        }
+	        if ($(document).scrollTop()>= elalto) {
+	        	$('#top').addClass('sticky')
+	        	console.log('sepega');
+	        }
+	        else{
+	         	$('#top').removeClass('sticky')
+	         	console.log('sedespega');
+	        }
+	    });
+	  	
+
+
+	    
+	});

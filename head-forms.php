@@ -15,6 +15,9 @@
 	<link rel="stylesheet" href="https://cdn.lineicons.com/3.0/lineicons.css"> 
 	<link rel="stylesheet" href="assets/css/style.css">
 	<link rel="stylesheet" href="assets/css/layout.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@900&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
 	<!-- |||||||||||||||||||||||||||||||||||||||| -->
 	<!-- LIBRERIAS JS ||||||||||||||||||||||||| -->
     <!-- |||||||||||||||||||||||||||||||||||||||| -->
@@ -22,15 +25,15 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 	<script src="https://kit.fontawesome.com/89a2df8a59.js" crossorigin="anonymous"></script>
 </head>
-<body>
+<body class="bg-sec2">
 	<!-- |||||||||||||||||||||||||||||||||||||||| -->
 	<!-- Foms simpleheader  [↓] ----------------- -->
 	<!-- |||||||||||||||||||||||||||||||||||||||| -->
 	<section id="forms-header">
-		<div class="row">
+		<div class="row nop">
 			<div class="container d-flex justify-content-center">
 				<div class="col-8 col-md-6 col-lg-6 d-flex justify-content-center">
-					<h1 class="main-logo2 txt2img">AMD Ultimate connection</h1>
+					<a href="index.php"><h1 class="main-logo2 txt2img">AMD Ultimate connection</h1></a>
 				</div>
 			</div>
 		</div>

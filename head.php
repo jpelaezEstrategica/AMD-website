@@ -15,6 +15,9 @@
 	<link rel="stylesheet" href="https://cdn.lineicons.com/3.0/lineicons.css"> 
 	<link rel="stylesheet" href="assets/css/style.css">
 	<link rel="stylesheet" href="assets/css/layout.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@900&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
 	<!-- |||||||||||||||||||||||||||||||||||||||| -->
 	<!-- LIBRERIAS JS ||||||||||||||||||||||||| -->
     <!-- |||||||||||||||||||||||||||||||||||||||| -->
@@ -31,11 +34,11 @@
 			<div class="container">
 				<div class="row align-items-center">
 						<div class="col-12 col-md-3 col-lg-3">
-							<h1 class="main-logo txt2img">AMD Ultimate connection</h1>
+							<a href="index.php"><h1 class="main-logo txt2img">AMD Ultimate connection</h1></a>
 						</div>
 						<div class="col-12 col-md-9 col-lg-9 d-flex justify-content-end" id="login-sec">
-							<a href="login.php" class="btn-plain">Inicia sesión</a>
-							<a href="javascript:;" class="btn-main">Registrate</a>
+							<a href="login.php" class="lebtn btn-login">Inicia sesión</a>
+							<a href="javascript:;" class="lebtn btn-main miss">Regístrate</a>
 						</div>
 				</div>
 			</div>
@@ -43,28 +46,36 @@
 		<!-- |||||||||||||||||||||||||||||||||||||||| -->
 		<!-- Navegacion  [↓] ------------------------ -->
 		<!-- |||||||||||||||||||||||||||||||||||||||| -->
-		<nav class="navbar navbar-expand-lg bg-light">
-		  <div class="container">
+		<nav class="navbar navbar-light navbar-expand-lg nop">
+		  <div class="container d-flex align-items-center">
 		    <!--<a class="navbar-brand" href="#">Navbar</a>-->
 		    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
 		      <span class="navbar-toggler-icon"></span>
 		    </button>
 		    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-		      <ul class="navbar-nav">
+		      <ul class="navbar-nav nop">
 		      	<span class="navbar-text">
-		      		<a href="javacript:;"><i class="fab fa-facebook-f"></i></a>
-		      		<a href="javacript:;"><i class="fab fa-twitter"></i></a>
-		      		<a href="javacript:;"><i class="fab fa-linkedin"></i></a>
-		      		<a href="javacript:;"><i class="fab fa-youtube"></i></a>
+		      		<a href="https://www.facebook.com/AMDMexico/?brand_redir=23542086472" target="_blank"><i class="fab fa-facebook-f"></i></a>
+		      		<a href="https://twitter.com/amd" target="_blank"><i class="fab fa-twitter"></i></a>
+		      		<a href="https://www.linkedin.com/company/amd/" target="_blank"><i class="fab fa-linkedin"></i></a>
+		      		<a href="https://www.youtube.com/user/amd" target="_blank"><i class="fab fa-youtube"></i></a>
 		      	</span>
 		        <li class="nav-item">
-		          <a class="nav-link" aria-current="page" href="/">Inicio</a>
+		          <a class="nav-link current" aria-current="page" href="index.php">Inicio</a>
 		        </li>
 		        <li class="nav-item">
 		          <a class="nav-link" href="programa-socios.php">Programas para socios de AMD</a>
 		        </li>
-		        <li class="nav-item">
-		          <a class="nav-link" href="#">Recursos</a>
+		        <li class="nav-item dropdown">
+		          <a class="nav-link dropdown-toggle" href="recursos.php">Recursos</a>
+		          <ul class="dropdown-menu">
+		          	<li><a href="recursos.php#amdarena" class="dropdown-item">AMD Arena </a></li>
+		          	<li><a href="recursos.php#meetxpert" class="dropdown-item">Meet the Expert </a></li>
+		          	<li><a href="recursos.php#calendario" class="dropdown-item">Eventos </a></li>
+		          	<li><a href="recursos.php#news" class="dropdown-item">AMS News </a></li>
+		          	<li><a href="recursos.php#assetsmkt" class="dropdown-item">Assets de Marketing </a></li>
+		          	<li><a href="recursos.php#selltools" class="dropdown-item">Herramientas de venta</a></li>
+		          </ul>
 		        </li>
 		      </ul>
 		    </div>

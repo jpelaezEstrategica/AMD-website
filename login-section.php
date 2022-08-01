@@ -2,13 +2,13 @@
 
 <main>
 	<!-- |||||||||||||||||||||||||||||||||||||||| -->
-	<!-- Seccion MEMBESR LOGIN  [↓] ------------------------ -->
+	<!-- Seccion INICIA SESION  [↓] ------------------------ -->
 	<!-- |||||||||||||||||||||||||||||||||||||||| -->
-	<section>
+	<section class="nop">
 		<div class="row">
 			<div class="container d-flex justify-content-center">
-				<div class="col-8 col-md-6 col-lg-6">
-					<div class="login-card p-20">
+				<div class="col-8 col-md-5 col-lg-4">
+					<div class="login-card bg-sec1 p-20">
 						<h3>Inicio de sesion</h3>
 						<p>Para entrar a esta sección escribe tu correo electrónico y contraseña. </p>
 						<form clasS="needs-validation" novalidate>
@@ -28,14 +28,16 @@
 						  </div>
 						  <div class="mb-3 form-check">
 						    <input type="checkbox" class="form-check-input" id="Check1" checked required>
-						    <label class="form-check-label" for="Check1">He leído y acepto los <a href="javascript:;">términos y condiciones</a></label>
+						    <label class="form-check-label" for="Check1">He leído y acepto los <a class="miss" href="javascript:;">términos y condiciones</a></label>
 						  </div>
-						  <button type="submit" class="bt-main">Iniciar sesion</button>
+						  <!-- quitar el onlclick cuando entre a produccion [⬇]-->
+						  <button type="submit" class="lebtn lebtn-w100 btn-main" onclick="window.location.href='programa-socios-logged.php'">Iniciar sesion</button>
+						  <!-- quitar el onlclick cuando entre a produccion [⬆] -->
 						  <a href="password-recover.php">¿Olvidaste tu contreseña?</a>
 						</form>
 						<hr>
 						<p><b>¿No tienes cuenta?</b></p>
-						<a href="javascript:;" class="btn-ghost">Regístrate</a>
+						<a href="javascript:;" class="lebtn btn-ghost">Regístrate</a>
 					</div>
 				</div>
 			</div>

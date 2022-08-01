@@ -2,15 +2,14 @@
 
 <main>
 	<!-- |||||||||||||||||||||||||||||||||||||||| -->
-	<!-- Seccion RECUEPRA TU PASSWORD  [↓] ------------------------ -->
+	<!-- Seccion INICIA SESION  [↓] ------------------------ -->
 	<!-- |||||||||||||||||||||||||||||||||||||||| -->
-	<section>
+	<section class="nop">
 		<div class="row">
 			<div class="container d-flex justify-content-center">
-				<div class="col-8 col-md-6 col-lg-6">
-					p.
-					<div class="login-card p-20">
-						<h3>Recuperar contraseña</h3>
+				<div class="col-8 col-md-5 col-lg-4">
+					<div class="login-card bg-sec1 p-20">
+						<h3 class="text-center">Recuperar contraseña</h3>
 						<p>Escribe la dirección de correo electrónico con la que estás registrado al programa, ahí recibirás el link para reestablecer la contraseña</p>
 						<form clasS="needs-validation" novalidate>
 						  <div class="mb-3">
@@ -22,9 +21,9 @@
 						  </div>
 						  <div class="mb-3 form-check">
 						    <input type="checkbox" class="form-check-input" id="Check1" checked required>
-						    <label class="form-check-label" for="Check1">He leído y acepto los <a href="javascript:;">términos y condiciones</a></label>
+						    <label class="form-check-label" for="Check1">He leído y acepto los <a class="miss" href="javascript:;">términos y condiciones</a></label>
 						  </div>
-						  <button type="submit" class="bt-main">Enviar</button>
+						  <button type="submit" class="lebtn lebtn-w100 btn-main">Enviar</button>
 						</form>
 					</div>
 				</div>

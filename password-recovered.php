@@ -2,17 +2,16 @@
 
 <main>
 	<!-- |||||||||||||||||||||||||||||||||||||||| -->
-	<!-- Seccion ALERTA RECUPERASTE TU PASSWORD  [↓] ------------------------ -->
+	<!-- Seccion INICIA SESION  [↓] ------------------------ -->
 	<!-- |||||||||||||||||||||||||||||||||||||||| -->
-	<section>
+	<section class="nop">
 		<div class="row">
 			<div class="container d-flex justify-content-center">
-				<div class="col-8 col-md-6 col-lg-6">
-					p.
-					<div class="login-card p-20">
-						<h3>Recuperacion exitosa</h3>
-						<p>Su contraseña ha sido reestabelcida correctamente</p>
-						<a href="login.php" class="btn-main">Iniciaón</a>
+				<div class="col-8 col-md-5 col-lg-4">
+					<div class="login-card bg-sec1 p-20">
+						<h3 class="text-center">Recuperacion exitosa</h3>
+						<p clasS="text-center">Su contraseña ha sido reestabelcida correctamente</p>
+						<a href="login.php" class="lebtn lebtn-w100 btn-main">Inicia Sesión</a>
 					</div>
 				</div>
 			</div>

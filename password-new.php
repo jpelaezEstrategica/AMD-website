@@ -2,33 +2,33 @@
 
 <main>
 	<!-- |||||||||||||||||||||||||||||||||||||||| -->
-	<!-- Seccion CREA UNA NUEVA PASSWORD [↓] ------------------------ -->
+	<!-- Seccion INICIA SESION  [↓] ------------------------ -->
 	<!-- |||||||||||||||||||||||||||||||||||||||| -->
-	<section>
+	<section class="nop">
 		<div class="row">
 			<div class="container d-flex justify-content-center">
-				<div class="col-8 col-md-6 col-lg-6">
-					<div class="login-card p-20">
-						<h3>Recuperar contraseña</h3>
-						<p>Escribe la dirección de correo electrónico con la que estás registrado al programa, ahí recibirás el link para reestablecer la contraseña</p>
+				<div class="col-8 col-md-5 col-lg-4">
+					<div class="login-card bg-sec1 p-20">
+						<h3 class="text-center">Recuperar contraseña</h3>
+						<p>Escribe una nueva contraseña para reestablecer tu cuenta en AMD Ultimate Connection y tener acceso a tu perfil.</p>
 						<form clasS="needs-validation" novalidate>
 						  <div class="mb-3">
 						    <label for="InputEmail1" class="form-label">Nueva contraseña*:</label>
-						    <input type="password" class="form-control" id="InputEmail1" required>
+						    <input type="password" class="form-control" id="InputEmail1" required><br>
 						    <div class="invalid-feedback">
       							La contraseña ingresada no cumple con las reglas establecidas.
     						</div>
 						    <p>Para definir tu contraseña, considera utilizar al menos:</p>
-						    <div class="row align-items-center">
+						    <div class="row nop align-items-center">
 						    	<div class="col-6">
-						    		<ul>
+						    		<ul class="bullets">
 						    			<li>Una letra mayúscula</li>
 						    			<li>Una letra minúscula</li>
 						    			<li>Un número</li>
 						    		</ul>
 						    	</div>
 						    	<div class="col-6">
-						    		<ul>
+						    		<ul class="bullets">
 						    			<li>Uno de estos carácteres especiales @#_*%/</li>
 						    		</ul>
 						    	</div>
@@ -43,9 +43,9 @@
 						  </div>
 						  <div class="mb-3 form-check">
 						    <input type="checkbox" class="form-check-input" id="Check1" checked required>
-						    <label class="form-check-label" for="Check1">He leído y acepto los <a href="javascript:;">términos y condiciones</a></label>
+						    <label class="form-check-label" for="Check1">He leído y acepto los <a class="miss" href="javascript:;">términos y condiciones</a></label>
 						  </div>
-						  <button type="submit" class="bt-main">Cambiar contraseña</button>
+						  <button type="submit" class="lebtn lebtn-w100 btn-main">Cambiar contraseña</button>
 						</form>
 					</div>
 				</div>
