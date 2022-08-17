@@ -7,7 +7,7 @@
 	<section id="hero" class="hero hero-recursos d-flex align-items-center">
 		<div class="container">
 			<div class="row">
-				<div class="col-12 col-md-6 col-lg-6">
+				<div class="col-12 col-md-7 col-lg-7">
 					<h3 class="nocaps"><span class="typewritter">Juntos avanzamos<span class="terminal">_</span></span><br>Desde el sector automotriz, salud, cómputo sostenible, nube o inteligencia artificial estamos cerca de ti y queremos conectarte con los recursos y herramientas más recientes que te servirán para impulsar tu negocio.</h3>
 				</div>
 			</div>
@@ -20,12 +20,12 @@
 	<!-- Seccion 1 - AMD ARENA  [↓] ------------------------ -->
 	<!-- |||||||||||||||||||||||||||||||||||||||| -->
 	<nav class="innernav bg-sec3" id="top">
-		<div class="container-fluid">
-			<div class="row d-flex justify-content-center align-items-center p-3">
+		<div class="container">
+			<div class="row d-flex justify-content-center align-items-center nop">
 				<div class="col-6 col-md-2 col-lg-2 text-center"><a href="#amdarena" class="nav-item c-02">AMD Arena <i class="fa-solid fa-angles-down"></i></a></div>
 				<div class="col-6 col-md-2 col-lg-2 text-center"><a href="#meetxpert" class="nav-item c-02">Meet the Expert <i class="fa-solid fa-angles-down"></i></a></div>
 				<div class="col-6 col-md-2 col-lg-2 text-center"><a href="#calendario" class="nav-item c-02">Eventos <i class="fa-solid fa-angles-down"></i></a></div>
-				<div class="col-6 col-md-2 col-lg-2 text-center"><a href="#news" class="nav-item c-02">AMS News <i class="fa-solid fa-angles-down"></i></a></div>
+				<div class="col-6 col-md-2 col-lg-2 text-center"><a href="#news" class="nav-item c-02">AMD News <i class="fa-solid fa-angles-down"></i></a></div>
 				<div class="col-6 col-md-2 col-lg-2 text-center"><a href="#assetsmkt" class="nav-item c-02">Marketing <i class="fa-solid fa-angles-down"></i></a></div>
 				<div class="col-6 col-md-2 col-lg-2 text-center"><a href="#selltools" class="nav-item c-02">Herramientas <i class="fa-solid fa-angles-down"></i></a></div>
 			</div>
@@ -38,7 +38,7 @@
 	<!-- |||||||||||||||||||||||||||||||||||||||| -->
 	<!-- Seccion 1 - AMD ARENA  [↓] ------------------------ -->
 	<!-- |||||||||||||||||||||||||||||||||||||||| -->
-	<section class="bg-sec2" id="amdarena">
+	<section class=" scrolloffset bg-sec2" id="amdarena">
 		<div class="container">
 			<div class="row">
 				<div class="col-12">
@@ -93,7 +93,7 @@
 	<!-- |||||||||||||||||||||||||||||||||||||||| -->
 	<!-- Seccion 2 - MEET THE EXPERT  [↓] ------------------------ -->
 	<!-- |||||||||||||||||||||||||||||||||||||||| -->
-	<section class="bg-sec1" id="meetxpert">
+	<section class=" scrolloffset bg-sec1" id="meetxpert">
 		<div class="container">
 			<div class="row">
 				<div class="col-12 col-md-8 col-lg-8">
@@ -171,7 +171,7 @@
 	<!-- |||||||||||||||||||||||||||||||||||||||| -->
 	<!-- Seccion 3- CALENDARIO DE EVENTOS  [↓] ------------------------ -->
 	<!-- |||||||||||||||||||||||||||||||||||||||| -->
-	<section class="bg-sec3" id="calendario">
+	<section class=" scrolloffset bg-sec3" id="calendario">
 		<div class="container">
 			<div class="row">
 				<div class="col-12 col-md-6 col-lg-6">
@@ -280,11 +280,11 @@
 	<!-- |||||||||||||||||||||||||||||||||||||||| -->
 	<!-- Seccion 4 - AMD NEWS  [↓] ------------------------ -->
 	<!-- |||||||||||||||||||||||||||||||||||||||| -->
-	<section class="bg-sec1" id="news">
+	<section class=" scrolloffset bg-sec1" id="news">
 		<div class="container">
 			<div class="row">
 				<div class="col-12 col-md-6 col-lg-6">
-					<h2>ADM News</h2>
+					<h2>AMD News</h2>
 					<p>Encuentra las últimas novedades sobre AMD y mantente siempre al tanto de las noticias más relevantes para ti.</p>
 					<p>Entre las más nuevas te compartimos:</p>
 				</div>
@@ -359,11 +359,11 @@
 	<!-- |||||||||||||||||||||||||||||||||||||||| -->
 	<!-- Seccion 5 - DESCARGA DE ASSETS  [↓] ------------------------ -->
 	<!-- |||||||||||||||||||||||||||||||||||||||| -->
-	<section class="bg-sec3" id="assetsmkt">
+	<section class=" scrolloffset bg-sec3" id="assetsmkt">
 		<div class="container">
 			<div class="row">
 				<div class="col-12">
-					<h2>Seleccón especial de assets de marketing</h2>
+					<h2>Selección especial de assets de marketing</h2>
 					<p>Tenemos para ti una selección especial de assets en tu idioma y de la última campaña de AMD. ¡Descárgalos!</p>
 				</div>
 			</div>
@@ -424,11 +424,11 @@
 	<!-- |||||||||||||||||||||||||||||||||||||||| -->
 	<!-- Seccion 6 - HERRAMIENTAS DE VENTAS  [↓] -- -->
 	<!-- |||||||||||||||||||||||||||||||||||||||| -->
-	<section class="bg-sec1" id="selltools">
+	<section class=" scrolloffset bg-sec1" id="selltools">
 		<div class="container">
 			<div class="row">
 				<div class="col-12">
-					<h2>Herramienta Ventas</h2>
+					<h2>Herramienta de Ventas</h2>
 					<p>Descubre el valor de los CPUs AMD EPYC™  y comparte con tus clientes los resultados.</p>
 					<p>Encuentra aquí las herramientas para calcular, comparar, medir el rendimiento, los costos y más, que te permitirán que tus clientes entiendan mejor tus propuestas. <a href="https://www.amd.com/es/processors/epyc-tools" target="_blank"><b>Conócelas aquí</b></a>:</p>
 				</div>
@@ -463,7 +463,7 @@
 					</div>
 					<div class="the-excerpt">
 						<h3 class="post-title">Asesor de costos en la nube de AMD</h3>
-						<p>Obtén la información que requieres para estimar el ahorro al cambiar a instancias en la nube con tecnología AMD EPYC ™ al interior del mismo proveedor de servicios. El análisis de costos es con información en tiempo real.</p>
+						<p>Obtén la información que requieres para estimar el ahorro al cambiar a instancias en la nube con tecnología AMD EPYC™ al interior del mismo proveedor de servicios. El análisis de costos es con información en tiempo real.</p>
 						<a href="https://www.amd.com/en/processors/epyc-VirtTCOtool" target="_blank" class="thepermalink lebtn btn-ghost">¡Compara y gana!</a>
 					</div>
 				</div>

@@ -3,9 +3,10 @@
 		<!-- |||||||||||||||||||||||||||||||||||||||| -->
 		<footer>
 			<div class="container">
-				<div class="row">
+				<div class="row nop">
 					<div class="col-12 col-md-4 col-lg-4 pb-5">
 						<a href="index.php">
+							<!-- Cambiar a fondo y no a imagen inline-->
 							<svg version="1.1" id="amdWhite" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 								 viewBox="0 0 257 100" style="enable-background:new 0 0 257 100;" xml:space="preserve">
 							<style type="text/css">
@@ -47,12 +48,12 @@
 						</a>
 					</div>
 					<div class="col-12 col-md-4 col-lg-4">
-						<h3>Contactar Concierge</h3>
-						<p>¿Neceitas ayuda? ¿Quieres conocer más sobre nuestro programa exclusivoa para partners? <br>
+						<h4>Contactar Concierge</h4>
+						<p>¿Necesitas ayuda? ¿Quieres conocer más sobre nuestro programa exclusivo para partners? <br>
 							<a href="javascript:;" class="miss">Da clic y contacta a nuestro concierge.</a></p>
 					</div>
 					<div class="col-12 col-md-4 col-lg-4">
-						<h3>Enlaces de interés</h3>
+						<h4>Enlaces de interés</h4>
 						<ul>
 							<li><a href="https://www.amd.com/es" target="_blank" rel="nofollow">Sitio web AMD</a></li>
 							<li><a href="https://www.amd.com/es/corporate/newsroom" target="_blank" rel="nofollow">Sala de prensa</a></li>
@@ -64,7 +65,7 @@
 			</div>
 			<div class="bottom-line">
 				<div class="container">
-					<div class="row">
+					<div class="row nop">
 						<hr>
 							<div class="col-12 col-md-6 col-lg-6 footerredes d-flex justify-content-center justify-content-md-start">
 								<a href="https://www.facebook.com/AMDMexico/?brand_redir=23542086472" target="_blank"><i class="fab fa-facebook-f"></i></a>
@@ -73,7 +74,7 @@
 					      		<a href="https://www.youtube.com/user/amd" target="_blank"><i class="fab fa-youtube"></i></a>
 							</div>
 							<div class="col-12 col-md-6 col-lg-6 d-flex justify-content-md-end justify-content-center">
-								<a class="miss" href="javascript:;">aviso de privacidad</a>
+								<a class="miss" href="javascript:;">Aviso de privacidad</a>
 							</div>
 						</div>
 					</div>

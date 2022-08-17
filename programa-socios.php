@@ -23,12 +23,12 @@
 	<!-- |||||||||||||||||||||||||||||||||||||||| -->
 	<section class="bg-sec3">
 		<div class="container">
-			<div class="row">
+			<div class="row nop">
 				<div class="col-12">
-					<h2>Juntos avanzamos<span class="terminal">_</span> y crecemos</h2>
+					<h3>Juntos avanzamos<span class="terminal">_</span> y crecemos</h3>
 				</div>
 			</div>
-			<div class="row align-items-center justify-content-center">
+			<div class="row align-items-center justify-content-center nop">
 				<div class="col-12 col-md-5 col-lg-5">
 					<img class="img-fluid pb-5" src="assets/img/programa-socios.png" alt="Partners AMD Ultimate Connection en una sala de juntas">
 				</div>
@@ -38,53 +38,48 @@
 					<a href="javascript:;" class="lebtn btn-white">¡Quiero registrarme!</a>
 				</div>
 			</div>
-			<div class="row justify-content-center justify-content-center">
-				<div class="col-6 col-md-4 col-lg-4 d-flex align-items-center">
+			<div class="row justify-content-center justify-content-center nop">
+				<div class="col-12 col-md-4 col-lg-4 d-flex mb-4">
 					<div class="icon-bg circled">
-						<i class="lni lni-consulting"></i>
-						<img src="assets/img/icon-programa-01.svg" alt="Ruta de entrenamiento virtual">
+						<i class="fa-solid fa-glasses"></i>
 					</div>
 					<p class="d-block">Ruta de entrenamiento virtual</p>
 				</div>
-				<div class="col-6 col-md-4 col-lg-4 d-flex align-items-center">
+				<div class="col-12 col-md-4 col-lg-4 d-flex mb-4">
 					<div class="icon-bg circled">
-						<i class="lni lni-headphone-alt"></i>
-						<img src="assets/img/icon-programa-02.svg" alt="Soporte y asesoria comercial">
+						<i class="fa-solid fa-headset"></i>
 					</div>
 					<p class="d-block">Soporte y asesoría comercial</p>
 				</div>
-				<div class="col-6 col-md-4 col-lg-4 d-flex align-items-center">
+				<div class="col-12 col-md-4 col-lg-4 d-flex mb-4">
 					<div class="icon-bg circled">
-						<i class="lnil lnil-gift"></i> <!-- ESTE ES PRO, NO SE VE-->
-						<img src="assets/img/icon-programa-03.svg" alt="Recompensas">
+						<i class="fa-solid fa-gift"></i> <!-- ESTE ES PRO, NO SE VE-->
 					</div>
 					<p class="d-block">Recompensas</p>
 				</div>
-				<div class="col-6 col-md-4 col-lg-4 d-flex align-items-center">
+				<div class="col-12 col-md-4 col-lg-4 d-flex mb-4">
 					<div class="icon-bg circled">
 						<!--no lo encuentro-->
-						<img src="assets/img/icon-programa-04.svg" alt="Capacitaciones exclusivas en vivo">
+						<i class="fa-solid fa-arrows-down-to-people"></i>
 					</div>
 					<p class="d-block">Capacitaciones exclusivas en vivo</p>
 				</div>
-				<div class="col-6 col-md-4 col-lg-4 d-flex align-items-center">
+				<div class="col-12 col-md-4 col-lg-4 d-flex mb-4">
 					<div class="icon-bg circled">
-						<i class="lnil lnil-target-customer css-1gu8igg"></i> <!-- ESTE ES PRO, NO SE VE-->
-						<img src="assets/img/icon-programa-05.svg" alt="Recusos de maketing">
+						<i class="fa-solid fa-bullseye"></i>
 					</div>
-					<p class="d-block">Recusos de maketing</p>
+					<p class="d-block">Recusos de marketing</p>
 				</div>
-				<div class="col-6 col-md-4 col-lg-4 d-flex align-items-center">
+				<div class="col-12 col-md-4 col-lg-4 d-flex mb-4">
 					<div class="icon-bg circled">
-						<i class="lni lni-customer"></i>
-						<img src="assets/img/icon-programa-06.svg" alt="y mas">
+						<i class="fa-solid fa-hand-holding-heart"></i>
 					</div>
 					<p class="d-block">y más</p>
 				</div>
 			</div>
 		</div>
 		<div class="container">
-			<div class="row d-flex justify-content-center">
+			<div class="row nop d-flex justify-content-center">
 				<div class="col-6 col-md-4 col-lg-4 d-flex justify-content-center">
 					<a href="login-section.php" class="lebtn btn-white">Iniciar sesión</a>
 				</div>

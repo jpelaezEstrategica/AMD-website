@@ -38,9 +38,9 @@
 						</div>
 						<div class="col-12 col-md-9 col-lg-9 d-flex justify-content-end" id="login-sec">
 							<div class="dropdown">
-								<button class="dropdown-toggle lebtn lebtn-w100 btn-login text-center" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">Bienvenido [user name]</button>
+								<button class="dropdown-toggle lebtn lebtn-w100 btn-login text-center" type="button">Bienvenido [user name]</button>
 							</div>
-							<ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+							<ul class="dropdown-menu" id="userlog-nav">
 							    <li><a class="dropdown-item" href="javascript:;">Mi perfil</a></li>
 							    <li><a class="dropdown-item" href="javascript:;">Mi cuenta</a></li>
 							    <li><a class="dropdown-item" href="javascript:;">Recompensas para socios</a></li>
@@ -54,7 +54,7 @@
 		<!-- |||||||||||||||||||||||||||||||||||||||| -->
 		<!-- Navegacion  [↓] ------------------------ -->
 		<!-- |||||||||||||||||||||||||||||||||||||||| -->
-		<nav class="navbar navbar-light navbar-expand-lg nop">
+		<nav class="navbar navbar-light navbar-expand-lg nop" id="mainnav">
 		  <div class="container d-flex align-items-center">
 		    <!--<a class="navbar-brand" href="#">Navbar</a>-->
 		    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -75,15 +75,15 @@
 		          <a class="nav-link" href="programa-socios.php">Programas para socios de AMD</a>
 		        </li>
 		         <li class="nav-item dropdown">
-		          <a class="nav-link dropdown-toggle" href="recursos.php">Recursos</a>
-		          <ul class="dropdown-menu">
+		          <a class="nav-link " href="recursos.php">Recursos</a>
+		          <!--<ul class="dropdown-menu">
 		          	<li><a href="recursos.php#amdarena" class="dropdown-item">AMD Arena </a></li>
 		          	<li><a href="recursos.php#meetxpert" class="dropdown-item">Meet the Expert </a></li>
 		          	<li><a href="recursos.php#calendario" class="dropdown-item">Eventos </a></li>
-		          	<li><a href="recursos.php#news" class="dropdown-item">AMS News </a></li>
+		          	<li><a href="recursos.php#news" class="dropdown-item">AMD News </a></li>
 		          	<li><a href="recursos.php#assetsmkt" class="dropdown-item">Assets de Marketing </a></li>
 		          	<li><a href="recursos.php#selltools" class="dropdown-item">Herramientas de venta</a></li>
-		          </ul>
+		          </ul>-->
 		        </li>
 		      </ul>
 		    </div>

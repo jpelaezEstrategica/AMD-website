@@ -15,11 +15,16 @@
 	      }, false)
 	    })
 	})()
+
 	//Dropdowns de logged user
-	var dropdownElementList = [].slice.call(document.querySelectorAll('.dropdown-toggle'))
-	var dropdownList = dropdownElementList.map(function (dropdownToggleEl) {
-	  return new bootstrap.Dropdown(dropdownToggleEl)
-	})
+	//var dropdownElementList = [].slice.call(document.querySelectorAll('.dropdown-toggle'))
+	//var dropdownList = dropdownElementList.map(function (dropdownToggleEl) {
+	//  return new bootstrap.Dropdown(dropdownToggleEl)
+	//})
+
+	$('.dropdown-toggle').click(function () {
+		$('#userlog-nav').slideToggle(300);
+	});
 
 	$(document).ready(function() {
 	    // back to top Show/Hide
@@ -43,7 +48,9 @@
 	        }
 	    });
 	  	
-
-
+	  	$('.innernav .navitem').click(function (e) {
+	  		$('.innernav .navitem').removeClass('hover')
+	  		$(this).addClass('hover')
+	  	});
 	    
 	});

@@ -3,7 +3,7 @@
 /* <!-- |||||||||||||||||||||||||||||||||||||||| -->*/
 body{font-family: 'Roboto', sans-serif;}
 h1,h2,h3,h4,h5{font-family: 'Nunito Sans', sans-serif; text-transform: uppercase;font-weight: 800;}
-.main-logo{width: 100%; height: 100px; background: url('../img/AMD-logo.svg') center center no-repeat; background-size: contain;}
+.main-logo{width: 100%; height: 90px; background: url('../img/AMD-logo.svg') center center no-repeat; background-size: contain; margin: 0.3em 0 !important;}
 .main-logo2{width: 250px; height: 180px; background: url('../img/AMD-logo.svg') center center no-repeat; background-size: contain;}
 ul.bullets li{ list-style: url('../img/bullet.png'); padding-bottom: 15px;}
 .txt2img{display: block;text-indent: -999999px;}
@@ -53,16 +53,23 @@ button.navbar-toggler {border: solid 1px #000;margin: 10px;}
 .navbar-toggler-icon{background-image: url();}
 /* navegacion interna */
 .innernav.sticky{position: fixed;top: 0;width: 100%; z-index: 999999;}
+.innernav a{display: block;padding: 30px;} 
+.innernav a:hover{background: #ffffff; color: #191919;} 
 /*.innernav .nav-item{text-align: center; text-transform: uppercase;color: #191919; font-weight: bold; text-decoration: none; display: block;width: 100%; padding: 10px; transition: all ease-in-out 300ms; height: 70px;}*/
 /*.innernav .nav-item:hover{color: #ffffff; background-color: #191919;}*/
-.page-item .page-link{ margin: 0 3px; background: transparent!important; border: solid 2px #191919; border-radius: 0; color: #191919; transition: ease-in-out 300ms all;}
-.page-item .page-link:hover{ background: #191919!important; color: #FFFFFF!important; }
+.page-item .page-link{ margin: 0 3px; background: #fff!important; border: solid 2px #191919; border-radius: 0; color: #191919; transition: ease-in-out 300ms all; font-size: .8em; /*Hacerlo mas chico*/}
+.page-item .page-link:hover,.page-item .page-link.hover{ background: #191919!important; color: #FFFFFF!important; }
 
 /*DROPDOWN MENU*/
 .navbar .nav-item .dropdown-menu{ display: none; }
 .navbar .nav-item:hover .nav-link{   }
 .navbar .nav-item:hover .dropdown-menu{ display: block!important; }
 .navbar .nav-item .dropdown-menu{ margin-top:0; }
+#login-sec{ position: relative; } 
+#login-sec .dropdown-menu{border: solid 1px #00000026; position: absolute;top: 40px;}
+#login-sec .dropdown:hover .dropdown-menu{display: block; }
+
+
 /* <!-- |||||||||||||||||||||||||||||||||||||||| -->*/
 /* <!-- TEXTOS ||||||||||||||||||||||||||||||||| -->*/
 /* <!-- |||||||||||||||||||||||||||||||||||||||| -->*/
@@ -75,12 +82,14 @@ button.navbar-toggler {border: solid 1px #000;margin: 10px;}
 .icon-bg{background: #ffffff; display: block; width: 60px;height: 60px; margin: 10px 20px;}
 .icon-bg i {color: #000000; text-align: center;line-height: 60px; width: 60px; font-size: 2.45em;}
 .icon-bg img {display: none; width: 50px; height: 50px; margin: 5px auto; padding: 5px;}
-.circled{ border-radius: 50%; }
+.circled{ border-radius: 50%; margin-top: -15px;margin-bottom: 15px;}
 .bigicon{text-align: center; font-size: 32px; margin-bottom: 20px;}
 .bg-sec2 .col-12 h3{min-height: 100px; display: block;}
 .hero-recursos h2{text-transform: inherit!important;}
 .back2top i{font-size: 2em; color:#d67144;}
 .back2top {position: fixed;bottom: 1vh;right: 1vw; }
+.form-select{border:  solid 2px #FFFFFF; background-color: transparent; color: #FFFFFF; background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAyNS4wLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iTGF5ZXJfMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeD0iMHB4IiB5PSIwcHgiDQoJIHZpZXdCb3g9IjAgMCAxNiAxNiIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgMTYgMTY7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4NCjxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI+DQoJLnN0MHtmaWxsOm5vbmU7c3Ryb2tlOiNGRkZGRkY7c3Ryb2tlLXdpZHRoOjI7c3Ryb2tlLWxpbmVjYXA6cm91bmQ7c3Ryb2tlLW1pdGVybGltaXQ6MTA7fQ0KPC9zdHlsZT4NCjxwYXRoIGNsYXNzPSJzdDAiIGQ9Ik0yLDVsNiw2bDYtNiIvPg0KPC9zdmc+DQo=');}
+.form-select option{ background: #000; }
 
 /* <!-- |||||||||||||||||||||||||||||||||||||||| -->*/
 /* <!-- HEADERS ||||||||||||||||||||||||||||||||| -->*/

@@ -24,7 +24,7 @@
 	<!-- |||||||||||||||||||||||||||||||||||||||| -->
 	<section id="homesec1" class="bgsec-1">
 		<div class="container">
-			<div class="row">
+			<div class="row nop">
 				<div class="col-12">
 					<h2 class="typewritter">Juntos avanzamos<span class="terminal">_</span></h2>
 					<h4>Bienvenidos al programa para partners AMD Ultimate Connection</h4>

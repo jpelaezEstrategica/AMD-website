@@ -13,7 +13,7 @@ section{padding-top: 50px;padding-bottom: 50px;}
 .row >*>.row{padding: 0 !important;}
 header{}
 header .row{padding: 20px 0!important;}
-footer{background: #000; padding: 50px; color: #ffffff;}
+footer{background: #000; padding-top: 50px; color: #ffffff;}
 /* <!-- |||||||||||||||||||||||||||||||||||||||| -->*/
 /* <!-- SECCIONES |||||||||||||||||||||||||||||| -->*/
 /* <!-- |||||||||||||||||||||||||||||||||||||||| -->*/
@@ -65,12 +65,12 @@ footer{background: #000; padding: 50px; color: #ffffff;}
 h1{font-size: 3.7em;}
 h2{font-size: 2.8em;}
 h2.dressedh1{font-size: 2.8em;}
-h2 span{font-size: 0.74em;}
-h3{font-size: 1.8em;}
-h3.post-title{font-size: 1.8em;}
-h4{font-size: 1.31em;}
+h2 span.mini{font-size: 0.74em;}
+h3{font-size: 1.5em;}
+h3.post-title{font-size: 1.5em;}
+h4{font-size: 1.1em;}
 h1, h2, h3, h4, h5{padding-bottom: 1.5em;}
-p,ul{font-size: 1.25em;line-height: 1.5em;padding-bottom: 1em;}
+p,ul{font-size: 1.12em;line-height: 1.5em;padding-bottom: 1em;}
 
 
 

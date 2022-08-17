@@ -26,6 +26,7 @@
 	<script src="https://kit.fontawesome.com/89a2df8a59.js" crossorigin="anonymous"></script>
 </head>
 <body>
+	<!--<div style=" width: 100px; height: 20px; position: fixed;bottom: 0;left: 0; background: #f00;; color:#ffffff; text-align: center;font-size: 1em;font-weight: bold;z-index: 999999;" id="thundera"></div>-->
 	<!-- |||||||||||||||||||||||||||||||||||||||| -->
 	<!-- Header ||||||||||||||||||||||||||||||||| -->
 	<!-- |||||||||||||||||||||||||||||||||||||||| -->
@@ -37,7 +38,7 @@
 							<a href="index.php"><h1 class="main-logo txt2img">AMD Ultimate connection</h1></a>
 						</div>
 						<div class="col-12 col-md-9 col-lg-9 d-flex justify-content-end" id="login-sec">
-							<a href="login.php" class="lebtn btn-login">Inicia sesión</a>
+							<a href="login.php" class="lebtn btn-login">Iniciar sesión</a>
 							<a href="javascript:;" class="lebtn btn-main miss">Regístrate</a>
 						</div>
 				</div>
@@ -46,7 +47,7 @@
 		<!-- |||||||||||||||||||||||||||||||||||||||| -->
 		<!-- Navegacion  [↓] ------------------------ -->
 		<!-- |||||||||||||||||||||||||||||||||||||||| -->
-		<nav class="navbar navbar-light navbar-expand-lg nop">
+		<nav class="navbar navbar-light navbar-expand-lg nop" id="mainnav">
 		  <div class="container d-flex align-items-center">
 		    <!--<a class="navbar-brand" href="#">Navbar</a>-->
 		    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -67,15 +68,15 @@
 		          <a class="nav-link" href="programa-socios.php">Programas para socios de AMD</a>
 		        </li>
 		        <li class="nav-item dropdown">
-		          <a class="nav-link dropdown-toggle" href="recursos.php">Recursos</a>
-		          <ul class="dropdown-menu">
+		          <a class="nav-link " href="recursos.php">Recursos</a>
+		          <!-- <ul class="dropdown-menu">
 		          	<li><a href="recursos.php#amdarena" class="dropdown-item">AMD Arena </a></li>
 		          	<li><a href="recursos.php#meetxpert" class="dropdown-item">Meet the Expert </a></li>
 		          	<li><a href="recursos.php#calendario" class="dropdown-item">Eventos </a></li>
-		          	<li><a href="recursos.php#news" class="dropdown-item">AMS News </a></li>
+		          	<li><a href="recursos.php#news" class="dropdown-item">AMD News </a></li>
 		          	<li><a href="recursos.php#assetsmkt" class="dropdown-item">Assets de Marketing </a></li>
 		          	<li><a href="recursos.php#selltools" class="dropdown-item">Herramientas de venta</a></li>
-		          </ul>
+		          </ul>-->
 		        </li>
 		      </ul>
 		    </div>
