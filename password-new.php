@@ -43,7 +43,7 @@
 						  </div>
 						  <div class="mb-3 form-check">
 						    <input type="checkbox" class="form-check-input" id="Check1" checked required>
-						    <label class="form-check-label" for="Check1">He leído y acepto los <a class="miss" href="javascript:;">términos y condiciones</a></label>
+						    <label class="form-check-label" for="Check1">He leído y acepto los <a class="" href="javascript:;">términos y condiciones</a></label>
 						  </div>
 						  <button type="submit" class="lebtn lebtn-w100 btn-main">Cambiar contraseña</button>
 						</form>

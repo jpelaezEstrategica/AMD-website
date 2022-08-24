@@ -46,7 +46,7 @@
 						<li>Acompañamiento y asesoria comecial</li>
 						<li>Registro de oportunidades</li>
 					</ul>
-					<p><b>¡Receurda, queremos conectar y crecer contigo!</b></p>
+					<p><b>Poner ¡Recuerda, queremos conectar y crecer contigo!</b></p>
 					<a href="javascript:;" class="lebtn btn-ghost">¡Conocer más!</a>
 				</div>
 			</div>

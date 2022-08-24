@@ -14,21 +14,21 @@
 						<form clasS="needs-validation" novalidate>
 						  <div class="mb-3">
 						    <label for="InputEmail1" class="form-label">Correo electrónico:*</label>
-						    <input type="email" class="form-control" id="InputEmail1" required>
+						    <input type="email" class="form-control" id="InputEmail1" required placeholder="Ej. juan@dominio.com">
 						    <div class="invalid-feedback">
-      							Este campo es obligatorio
+      							¡Lo sentimos! El correo electrónico ingresado no es con el que estás registrado en AMD Ultimate Connection.
     						</div>
 						  </div>
 						  <div class="mb-3">
 						    <label for="InputPassword1" class="form-label">Contraseña</label>
-						    <input type="password" class="form-control" id="InputPassword1" required>
+						    <input type="password" class="form-control" id="InputPassword1" required placeholder="Introduce la contraseña">
 						    <div class="invalid-feedback">
       							El correo o contraseña son incorrectos, por favor vuelva a intentarlo.
     						</div>
 						  </div>
 						  <div class="mb-3 form-check">
 						    <input type="checkbox" class="form-check-input" id="Check1" checked required>
-						    <label class="form-check-label" for="Check1">He leído y acepto los <a class="miss" href="javascript:;">términos y condiciones</a></label>
+						    <label class="form-check-label" for="Check1">He leído y acepto los <a class="" href="javascript:;">términos y condiciones</a></label>
 						  </div>
 						  <button type="submit" class="lebtn lebtn-w100 btn-main">Iniciar sesion</button>
 						  <a class="text-center d-block mt-2 mb-2" href="password-recover.php">¿Olvidaste tu contreseña?</a>
@@ -37,7 +37,7 @@
 						<p><b>¿No tienes cuenta?</b></p>
 						<a href="javascript:;" class="lebtn lebtn-w100 btn-ghost">Regístrate</a>
 					</div>
-					<p class="text-center">Conoce nuestro <a class="miss" href="javascript:;">aviso de privacidad</a></p>
+					<p class="text-center">Conoce nuestro <a class="" href="javascript:;">aviso de privacidad</a></p>
 				</div>
 			</div>
 		</div>

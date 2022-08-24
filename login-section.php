@@ -28,7 +28,7 @@
 						  </div>
 						  <div class="mb-3 form-check">
 						    <input type="checkbox" class="form-check-input" id="Check1" checked required>
-						    <label class="form-check-label" for="Check1">He leído y acepto los <a class="miss" href="javascript:;">términos y condiciones</a></label>
+						    <label class="form-check-label" for="Check1">He leído y acepto los <a class="" href="javascript:;">términos y condiciones</a></label>
 						  </div>
 						  <!-- quitar el onlclick cuando entre a produccion [⬇]-->
 						  <button type="submit" class="lebtn lebtn-w100 btn-main" onclick="window.location.href='programa-socios-logged.php'">Iniciar sesion</button>
