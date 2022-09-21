@@ -76,7 +76,7 @@
 				<div class="col-12 col-md-4 col-lg-4 pb-4 d-table justify-content-center">
 					<h3 class="text-center">Recompensas</h3>
 					<div class="bigicon"><img src="assets/img/icon-programa-09.svg" alt=""></div>
-					<p class="text-center">Descubre las opciones que tenemos para ti.<br><b>¡Consulta y canjea tus puntos por recompensas!</b></p>
+					<p class="text-center"><!-- Descubre las opciones que tenemos para ti. --><b>¡Consulta y canjea tus puntos por recompensas!</b></p>
 					<a href="javascript:;" class="lebtn lebtn-w100 btn-ghost text-center">Ingresar</a>
 				</div>
 			</div>

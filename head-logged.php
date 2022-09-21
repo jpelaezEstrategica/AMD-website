@@ -41,15 +41,15 @@
 						<div class="col-12 col-md-3 col-lg-3">
 							<a href="index.php"><h1 class="main-logo txt2img">AMD Ultimate connection</h1></a>
 						</div>
-						<div class="col-12 col-md-4 col-lg-4 d-flex justify-content-end" id="login-sec">
+						<div class="col-12 col-md-6 col-lg-4 d-flex justify-content-end" id="login-sec">
 							<div class="dropdown">
 								<button class="dropdown-toggle lebtn lebtn-w100 btn-login text-center" id="loginDrop" type="button">Bienvenido [user name]</button>
 							</div>
 							<ul class="dropdown-menu" id="userlog-nav">
 							    <li><a class="dropdown-item" href="cp-home.php">Mi perfil</a></li>
-							    <li><a class="dropdown-item" href="javascript:;">Mi cuenta</a></li>
+							    <li><a class="dropdown-item" href="myaccount-up.php">Mi cuenta</a></li>
 							    <li><a class="dropdown-item" href="javascript:;">Recompensas para socios</a></li>
-							    <li><a class="dropdown-item" href="javascript:;">Terminos y Condiciones</a></li>
+							    <li><a class="dropdown-item" href="javascript:;">Términos y Condiciones</a></li>
 							  </ul>
 							&nbsp;&nbsp;|&nbsp;&nbsp; <a href="javascript:;" class="lebtn btn-ghost">Salir <i class="fa-solid fa-right-from-bracket"></i></a>
 						</div>

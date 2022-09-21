@@ -6,13 +6,13 @@
 				<div class="row nop">
 					<div class="col-12 col-md-4 col-lg-4 pb-5">
 						<a href="index.php">
-							<img src="assets/img/AMD-logoW.svg" alt="AMD Ultimate Connection">
+							<img src="assets/img/AMD-logoW.svg" alt="AMD Ultimate Connection" id="footerlogo">
 						</a>
 					</div>
 					<div class="col-12 col-md-4 col-lg-4">
 						<h4>Contactar Concierge</h4>
 						<p>¿Necesitas ayuda? ¿Quieres conocer más sobre nuestro programa exclusivo para partners? <br>
-							<a href="javascript:;" class="text-decoration-underline">Da clic y contacta a nuestro concierge.</a></p>
+							<a href="mailto:concierge@amdultimate.com" class="text-decoration-underline">Da clic y contacta a nuestro concierge.</a></p>
 					</div>
 					<div class="col-12 col-md-4 col-lg-4">
 						<h4>Enlaces de interés</h4>
@@ -36,7 +36,7 @@
 					      		<a href="https://www.youtube.com/user/amd" target="_blank"><i class="fab fa-youtube"></i></a>
 							</div>
 							<div class="col-12 col-md-6 col-lg-6 d-flex justify-content-md-end justify-content-center">
-								<a class="" href="javascript:;">Aviso de privacidad</a>
+								<a class="" href="https://www.amd.com/es/corporate/privacy" target="_blank">Aviso de privacidad</a>
 							</div>
 						</div>
 					</div>

@@ -7,7 +7,7 @@
 	<section class="nop">
 		<div class="row">
 			<div class="container d-flex justify-content-center">
-				<div class="col-8 col-md-5 col-lg-4">
+				<div class="col-10 col-md-5 col-lg-4">
 					<div class="login-card bg-sec1 p-20">
 						<h3 class="text-center">Inicio de sesión</h3>
 						<p>Si ya estás registrado en AMD Ultimate Connection ingresa tu correo electrónico y contraseña.</p>
@@ -21,7 +21,7 @@
 						  </div>
 						  <div class="mb-3">
 						    <label for="InputPassword1" class="form-label">Contraseña</label>
-						    <input type="password" class="form-control" id="InputPassword1" required placeholder="Introduce la contraseña">
+						    <span class="posrel"><input type="password" class="form-control" id="InputPassword1" required placeholder="Introduce la contraseña"><i class="fa-solid fa-eye" id="togglepsw"></i></span>
 						    <div class="invalid-feedback">
       							El correo o contraseña son incorrectos, por favor vuelva a intentarlo.
     						</div>
@@ -37,7 +37,7 @@
 						<p><b>¿No tienes cuenta?</b></p>
 						<a href="javascript:;" class="lebtn lebtn-w100 btn-ghost">Regístrate</a>
 					</div>
-					<p class="text-center">Conoce nuestro <a class="" href="javascript:;">aviso de privacidad</a></p>
+					<p class="text-center">Conoce nuestro <a class="" href="https://www.amd.com/es/corporate/privacy" targte="_blank">aviso de privacidad</a></p>
 				</div>
 			</div>
 		</div>
@@ -47,4 +47,18 @@
 	<!-- |||||||||||||||||||||||||||||||||||||||| -->
 
 </main>
+<script>
+// Password Toggle
+const togglePassword = document.querySelector('#togglepsw');
+const password = document.querySelector('#InputPassword1');
+
+  togglePassword.addEventListener('click', function (e) {
+    // toggle the type attribute
+    const type = password.getAttribute('type') === 'password' ? 'text' : 'password';
+    password.setAttribute('type', type);
+    // toggle the eye slash icon
+    this.classList.toggle('fa-eye-slash');
+    this.classList.toggle('fa-eye');
+});
+</script>
 <?php include 'footer.php'; ?>

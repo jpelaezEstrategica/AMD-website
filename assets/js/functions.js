@@ -77,6 +77,6 @@
   			return new bootstrap.Tooltip(tooltipTriggerEl)
 				})
 
-				
+		
 });
 	    
