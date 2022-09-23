@@ -37,7 +37,7 @@
 					<img class="img-fluid" src="assets/img/progama-partners.png" alt="Partners AMD Ultimate Connection en una sala de juntas">
 				</div>
 				<div class="col-12 col-md-6 col-lg-6">
-					<ul class="bullets">
+					<ul class="losbullets">
 						<li>Ruta de entrenamiento virtual</li>
 						<li>Solicitud de equipos semilla</li>
 						<li>Capacitaciones especiales</li>

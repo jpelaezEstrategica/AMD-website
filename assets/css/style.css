@@ -5,12 +5,13 @@ body{font-family: 'Roboto', sans-serif;}
 h1,h2,h3,h4,h5{font-family: 'Nunito Sans', sans-serif; text-transform: uppercase;font-weight: 800;}
 .main-logo{width: 100%; height: 90px; background: url('../img/AMD-logo.svg') center center no-repeat; background-size: contain; margin: 0.3em 0 !important;}
 .main-logo2{width: 250px; height: 180px; background: url('../img/AMD-logo.svg') center center no-repeat; background-size: contain;}
-ul.bullets li{ list-style: url('../img/bullet.png'); padding-bottom: 15px;}
+ul.losbullets li{ list-style: url('../img/bullet.png'); padding-bottom: 15px;}
 .txt2img{display: block;text-indent: -999999px;}
 .c-01{color: #191919;}
 .c-02{color: #ffffff;}
 .terminal{line-height: 0; animation: terminal 300ms ease-in-out 0s infinite alternate;}
 .typewritter{display: inline-block;overflow: hidden;white-space: nowrap; margin: 0 auto; width: 0; letter-spacing: 0.05em; animation: typing 3500ms steps(50, end) 500ms forwards;}
+.typewritter2{display: inline-block;overflow: hidden;white-space: nowrap; margin: 0 auto; width: 0; letter-spacing: 0.05em; animation: typing 3500ms steps(50, end) 1500ms forwards;}
 @keyframes terminal {
 	0{opacity: 1;}
 	100%{opacity: 0;}
@@ -25,7 +26,7 @@ ul.bullets li{ list-style: url('../img/bullet.png'); padding-bottom: 15px;}
 /* <!-- |||||||||||||||||||||||||||||||||||||||| -->*/
 /*boton negro solid*/
 input.lebtn{padding: 8px 20px;}
-.lebtn{display: block; padding: 5px 20px; width: inherit; text-align: center;text-decoration: none; transition: ease-in-out 300ms all; height: 40px; cursor: pointer;}
+.lebtn{display: block; padding: 5px 20px; width: auto; text-align: center;text-decoration: none; transition: ease-in-out 300ms all; max-height: 40px;}
 .lebtn:hover{text-decoration: none;}
 .lebtn-w100{max-width: 100%; width: 100%;}
 .btn-main{background-color: #191919; border: solid 2px #191919;color: #ffffff;}
@@ -46,14 +47,16 @@ input.lebtn{padding: 8px 20px;}
 /* <!-- |||||||||||||||||||||||||||||||||||||||| -->*/
 form input, form select, form button{ padding: 5px 10px; margin: 0;}
 form input{border: solid 1px #ffffff;}
+#togglepsw{position: absolute; right: 10px; top: 40px; cursor: pointer;}
 /* form input[type="radio"], form input[type="checkbox"]{width: inherit!important;} */
 select{background: #efefef;}
 .card input, .card select{width: 100%;}
-.card input[type="text"], .card input[type="date"], .card input[type="number"]{border:  solid 1px #d1d1d1; border-radius: 10px!important; padding: 12px;}
-.card select{border:  solid 1px #d1d1d1; border-radius: 10px!important; padding: 11px;}
+.card input[type="text"], .card input[type="date"] {border:  solid 1px #d1d1d1; border-radius: 10px!important; padding: 12px;}
 .card input[type="radio"], .card input[type="checkbox"]{width: initial!important; margin: 0 5px;}
 .telefonoinputs select{width: 30%!important; margin: 0; border-radius: 10px  0 0 10px!important; padding: 9px 10px; vertical-align: top;}
-.card .telefonoinputs input[type="text"],.card .telefonoinputs input[type="number"]{width: 68%!important; margin: 0 -5px; padding: 10px; border-radius: 0 10px 10px 0!important;}
+.card .telefonoinputs input[type="text"]{width: 68%!important; margin: 0 -5px; padding: 10px; border-radius: 0 10px 10px 0!important;}
+label{font-size: 14px; color: #777777;}
+.remind{font-size: 14px;}
 
 /* <!-- |||||||||||||||||||||||||||||||||||||||| -->*/
 /* <!-- HEADER & NAV ||||||||||||||||||||||||||| -->*/
@@ -67,7 +70,7 @@ select{background: #efefef;}
 .navbar-text a i{ color: #191919; padding: 27px 10px; transition: ease-in-out 300ms all;}
 .navbar-text a:hover i{ color: #ccc;}
 button.navbar-toggler {border: solid 1px #000;margin: 10px;}
-.navbar-toggler-icon{background-image: url();}
+/* .navbar-toggler-icon{background-image: url();} */
 /* navegacion interna */
 .innernav.sticky{position: fixed;top: 70px;width: 100%; z-index: 999999;}
 .innernav a{display: block;padding: 20px 0;} 
@@ -90,6 +93,8 @@ button.navbar-toggler {border: solid 1px #000;margin: 10px;}
 /* <!-- TEXTOS ||||||||||||||||||||||||||||||||| -->*/
 /* <!-- |||||||||||||||||||||||||||||||||||||||| -->*/
 .card .partnerData{padding: 5px 0; display: inline-block; word-break: break-word;}
+.macroF{display: inline-block; width: 100%; font-size: 3em; font-weight: bold;}
+sup{font-size: 0.5em!important;top: -1em!important; font-weight: normal!important;}
 
 
 /* <!-- |||||||||||||||||||||||||||||||||||||||| -->*/
@@ -110,6 +115,8 @@ button.navbar-toggler {border: solid 1px #000;margin: 10px;}
 /* botones edit partners */
 .partnerActions a{background: #FFF; width: 32px; height: 32px; text-align: center;line-height: 32px; color: #000000; border: solid 1px #000; transition: 300ms all ease-in-out}
 .partnerActions a:hover, .pAction.active{background: #000; color: #FFFFFF;}
+
+
 
 .pLocked{ background:#F3F3F0; color:#999999 ;}
 .pLocked .partnerActions a{opacity: 0.5;}
@@ -136,6 +143,18 @@ button.navbar-toggler {border: solid 1px #000;margin: 10px;}
 footer a{color: #FFFFFF; transition: all 300ms ease-in-out;}
 footer li{margin-bottom: 10px;}
 footer a:hover{color: #707070; text-decoration: underline!important;}
+footer #footerlogo{max-width:300px;}
+/*  |||||||||||||||||||||||||||||||||||||||| */
+/* Sprint 3 ||||||||||||||||||||||||||||||||| */
+/*  |||||||||||||||||||||||||||||||||||||||| */
+
+.bullet {  margin-left: 18px!important;  margin-top: -30px; }
+.bullets{	font-size: 55px!important;	color: #C4C4C4!important;	position: absolute;	padding-top: 1px!important;	margin-left: -20px;	padding-right: 50px;}
+.vinculos{	color: #000;	text-decoration: underline!important;}
+.bullet_status_pendiente::before{	font-size: 55px!important; 	line-height: 35px!important; 	content: "•"!important;	color: #C4C4C4!important;}
+.bullet_status_rechazado::before{	font-size: 55px!important; 	line-height: 35px; 	content: "•"!important;	color: #000!important;}
+.bullet_status_autorizado::before{	font-size: 55px!important; 	line-height: 35px; 	color: #fff!important;	content: "•"!important;	-webkit-text-stroke: 1px black;	text-stroke: 1px black;}
+.bullet_status_bloqueado::before{	font-size: 55px!important; 	line-height: 35px;	content: "•"!important;	color: #496281!important;}
 
 /* <!-- |||||||||||||||||||||||||||||||||||||||| -->*/
 /* <!-- QUERIES ||||||||||||||||||||||||||||||||| -->*/

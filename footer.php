@@ -9,17 +9,31 @@
 							<img src="assets/img/AMD-logoW.svg" alt="AMD Ultimate Connection" id="footerlogo">
 						</a>
 					</div>
-					<div class="col-12 col-md-4 col-lg-4">
+					<div class="col-12 col-md-4 col-lg-4 l-esp">
 						<h4>Contactar Concierge</h4>
 						<p>¿Necesitas ayuda? ¿Quieres conocer más sobre nuestro programa exclusivo para partners? <br>
 							<a href="mailto:concierge@amdultimate.com" class="text-decoration-underline">Da clic y contacta a nuestro concierge.</a></p>
 					</div>
-					<div class="col-12 col-md-4 col-lg-4">
+					<div class="col-12 col-md-4 col-lg-4 l-pt">
+						<h4>Contactar Concierge</h4>
+						<p>Precisa de ajuda? Quer saber mais sobre nosso programa exclusivo para parceiros?<br>
+							<a href="mailto:concierge@amdultimate.com" class="text-decoration-underline">Clique e entre em contato com nosso concierge.</a></p>
+					</div>
+					<div class="col-12 col-md-4 col-lg-4 l-esp">
 						<h4>Enlaces de interés</h4>
 						<ul>
 							<li><a href="https://www.amd.com/es" target="_blank" rel="nofollow">Sitio web AMD</a></li>
 							<li><a href="https://www.amd.com/es/corporate/newsroom" target="_blank" rel="nofollow">Sala de prensa</a></li>
 							<li><a href="faq.php">Preguntas frecuentes</a></li>
+							
+						</ul>
+					</div>
+					<div class="col-12 col-md-4 col-lg-4 l-pt">
+						<h4>Links de interesse</h4>
+						<ul>
+							<li><a href="https://www.amd.com/es" target="_blank" rel="nofollow">Site AMD</a></li>
+							<li><a href="https://www.amd.com/es/corporate/newsroom" target="_blank" rel="nofollow">Sala de imprensa</a></li>
+							<li><a href="faq.php">Perguntas frequentes</a></li>
 							
 						</ul>
 					</div>
@@ -36,7 +50,7 @@
 					      		<a href="https://www.youtube.com/user/amd" target="_blank"><i class="fab fa-youtube"></i></a>
 							</div>
 							<div class="col-12 col-md-6 col-lg-6 d-flex justify-content-md-end justify-content-center">
-								<a class="" href="https://www.amd.com/es/corporate/privacy" target="_blank">Aviso de privacidad</a>
+								<a class="" href="https://www.amd.com/es/corporate/privacy" target="_blank">Aviso de privacidade</a>
 							</div>
 						</div>
 					</div>
@@ -57,6 +71,21 @@
 				}
 		})
 		();
+	</script>
+	<script>
+		jQuery(document).ready(function($) {
+			$('.lang-switch').click(function () {
+				$('.lang-switch').toggleClass('active-lang');
+			});
+			$('#lang-esp').click(function() {
+				$('body').removeClass('lang-port');
+				$('body').addClass('lang-esp');
+			});
+			$('#lang-port').click(function() {
+				$('body').removeClass('lang-esp');
+				$('body').addClass('lang-port');
+			});
+		});
 	</script>
 	<script src="assets/js/functions.js" crossorigin="anonymous"></script>
 </body>
