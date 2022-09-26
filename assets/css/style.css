@@ -114,6 +114,7 @@ sup{font-size: 0.5em!important;top: -1em!important; font-weight: normal!importan
 
 /* botones edit partners */
 .partnerActions a{background: #FFF; width: 32px; height: 32px; text-align: center;line-height: 32px; color: #000000; border: solid 1px #000; transition: 300ms all ease-in-out}
+.valuation-table2 a.rAction{background: #FFF; width: 32px; height: 32px; text-align: center;line-height: 32px; color: #000000; font-size: 25px;  transition: 300ms all ease-in-out}
 .partnerActions a:hover, .pAction.active{background: #000; color: #FFFFFF;}
 
 

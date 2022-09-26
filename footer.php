@@ -50,7 +50,7 @@
 					      		<a href="https://www.youtube.com/user/amd" target="_blank"><i class="fab fa-youtube"></i></a>
 							</div>
 							<div class="col-12 col-md-6 col-lg-6 d-flex justify-content-md-end justify-content-center">
-								<a class="" href="https://www.amd.com/es/corporate/privacy" target="_blank">Aviso de privacidade</a>
+								<a class="" href="https://www.amd.com/es/corporate/privacy" target="_blank">Aviso de privacidad</a>
 							</div>
 						</div>
 					</div>

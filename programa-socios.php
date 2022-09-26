@@ -52,45 +52,52 @@
 					<div class="icon-bg circled">
 						<i class="fa-solid fa-glasses"></i>
 					</div>
-					<p class="d-block">Caminhos virtuais de treinamento</p>
+					<p class="d-block l-esp">Rutas de entrenamiento virtual</p>
+					<p class="d-block l-pt">Caminhos virtuais de treinamento</p>
 				</div>
 				<div class="col-12 col-md-4 col-lg-4 d-flex mb-4">
 					<div class="icon-bg circled">
 						<i class="fa-solid fa-headset"></i>
 					</div>
-					<p class="d-block">Treinamento exclusivo ao vivo</p>
+					<p class="d-block l-esp">Capacitaciones exclusivas en vivo</p>
+					<p class="d-block l-pt">Treinamento exclusivo ao vivo</p>
 				</div>
 				<div class="col-12 col-md-4 col-lg-4 d-flex mb-4">
 					<div class="icon-bg circled">
 						<i class="fa-solid fa-gift"></i> <!-- ESTE ES PRO, NO SE VE-->
 					</div>
-					<p class="d-block">Consultoria e suporte empresarial.</p>
+					<p class="d-block l-esp">Soporte y asesoría comercial</p>
+					<p class="d-block l-pt">Consultoria e suporte empresarial.</p>
 				</div>
 				<div class="col-12 col-md-4 col-lg-4 d-flex mb-4">
 					<div class="icon-bg circled">
 						<!--no lo encuentro-->
 						<i class="fa-solid fa-arrows-down-to-people"></i>
 					</div>
-					<p class="d-block">Recursos de marketing.</p>
+					<p class="d-block l-esp">Recursos de marketing.</p>
+					<p class="d-block l-pt">Recursos de marketing.</p>
 				</div>
 				<div class="col-12 col-md-4 col-lg-4 d-flex mb-4">
 					<div class="icon-bg circled">
 						<i class="fa-solid fa-bullseye"></i>
 					</div>
-					<p class="d-block">Recompensas</p>
+					<p class="d-block l-esp">Recompensas</p>
+					<p class="d-block l-pt">Recompensas</p>
 				</div>
 				<div class="col-12 col-md-4 col-lg-4 d-flex mb-4">
 					<div class="icon-bg circled">
 						<i class="fa-solid fa-hand-holding-heart"></i>
 					</div>
-					<p class="d-block">E mais</p>
+					<p class="d-block l-esp">y más</p>
+					<p class="d-block l-pt">E mais</p>
 				</div>
 			</div>
 		</div>
 		<div class="container">
 			<div class="row nop d-flex justify-content-center">
 				<div class="col-6 col-md-4 col-lg-4 d-flex justify-content-center">
-					<a href="login-section.php" class="lebtn btn-white">Fazer login</a>
+					<a href="login-section.php" class="lebtn btn-white l-esp">Iniciar Sesión</a>
+					<a href="login-section.php" class="lebtn btn-white l-pt">Fazer login</a>
 				</div>
 			</div>
 		</div>

@@ -85,8 +85,8 @@
 								<span class="macroF"><i class="fa-solid fa-border-all"></i></span>
 							</div>
 							<div class="col-7">
-								<h2 class="nop"><i class="fa-solid fa-circle-info" data-bs-toggle="tooltip" data-bs-placement="top" title="Estos son los puntos que tienes disponibles actualmente para canjear por premios."></i> Puntos acumulados</h2>
-								<p>Consulta los puntos acumulados disponibles para cajear por premios. </p>
+								<h2 class="nop"><i class="fa-solid fa-circle-info" data-bs-toggle="tooltip" data-bs-placement="top" title="Estos son los puntos que tienes disponibles actualmente para canjear por premios."></i> Puntos acumulados</h2>
+								<p>Consulta los puntos acumulados disponibles para canjear por premios. </p>
 							</div>
 							<div class="col-4">
 								<span class="macroF text-end">2,000</span>
@@ -116,7 +116,7 @@
 										<td>ID Producto</td>
 										<td>Puntos Producto</td>
 										<td>Cantidad</td>
-										<td>Fecha de Apliacion</td>
+										<td>Fecha de Aplicación</td>
 										<td>Puntos Redimidos</td>
 									</tr>
 									<tr class="border-bottom">
@@ -178,11 +178,11 @@
 							<div class="col-12">
 								<table class="valuation-table2 sb-none td-5 d-md-block d-lg-block">
 									<tr class="valuation-head" bgcolor="#000000">
-										<td></td>
-										<td></td>
-										<td></td>
-										<td></td>
-										<td></td>
+										<td>Folio/Factura</td>
+										<td>Fecha de Aprobación</td>
+										<td>Concepto</td>
+										<td>Puntos acumulados</td>
+										<td>Fecha de vencimiento</td>
 									</tr>
 									<tr class="border-bottom">
 										<td>45-02324923-R-MX </td>
