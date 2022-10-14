@@ -84,7 +84,7 @@
 						<p>Si lo que quieres es lo mejor de lo mejor para tus momentos de juego, no busques más. El procesador AMD Ryzen™ 7 5800X3D con tecnología AMD 3D V-Cache™ es tu mejor aliado.</p>
 						<a href="https://arena.amd.com/course/626bacf5-f185-4e31-9890-08998434397e" target="_blank" class="thepermalink lebtn btn-ghost">Tomar el curso</a>
 					</div>
-					<div class="the-excerpt l-bt">
+					<div class="the-excerpt l-pt">
 						<h3 class="post-title">Desempenho de jogos inigualável: NOVO AMD Ryzen™ 7 5800X3D</h3>
 						<p>Se você quer o melhor dos melhores para seus momentos de jogo, não procure mais. O processador AMD Ryzen™ 7 5800X3D com tecnologia AMD 3D V-Cache™ é seu melhor amigo.</p>
 						<a href="https://arena.amd.com/course/626bacf5-f185-4e31-9890-08998434397e" target="_blank" class="thepermalink lebtn btn-ghost">Faça o curso!</a>
@@ -244,7 +244,7 @@
 								</select>
 							</div>
 							<div class="col-6 col-md-3 col-lg-3">
-								<select class="form-select" aria-label="Default select example l-esp">
+								<select class="form-select l-esp" aria-label="Default select example">
 									<option value="01">Enero</option>
 									<option value="02">Febrero</option>
 									<option value="03">Marzo</option>
@@ -258,7 +258,7 @@
 									<option value="11">Noviembre</option>
 									<option value="12">Diciembre</option>
 								</select>
-								<select class="form-select" aria-label="Default select example l-pt">
+								<select class="form-select l-pt" aria-label="Default select example">
 									<option value="01">Janeiro</option>
 									<option value="02">Fevereiro</option>
 									<option value="03">Marchar</option>
@@ -427,7 +427,7 @@
 							</div>
 						</div>
 					</div>
-				</div>A nova série AMD Ryzen Embedded R2000 está aqui!
+				</div>
 				<div class="col-10 feeded-post">
 					<div class="row">
 						<div class="col-12 col-md-6 col-lg-6">

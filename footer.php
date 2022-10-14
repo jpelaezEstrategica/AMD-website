@@ -31,7 +31,7 @@
 					<div class="col-12 col-md-4 col-lg-4 l-pt">
 						<h4>Links de interesse</h4>
 						<ul>
-							<li><a href="https://www.amd.com/es" target="_blank" rel="nofollow">Site AMD</a></li>
+							<li><a href="https://www.amd.com/es" target="_blank" rel="nofollow">Site da AMD</a></li>
 							<li><a href="https://www.amd.com/es/corporate/newsroom" target="_blank" rel="nofollow">Sala de imprensa</a></li>
 							<li><a href="faq.php">Perguntas frequentes</a></li>
 							

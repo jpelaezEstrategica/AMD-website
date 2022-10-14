@@ -37,7 +37,7 @@
 				<div class="col-12 l-pt">
 					<h2 class="typewritter">Juntos avançamos!<span class="terminal">_</span></h2>
 					<h4>BEM-VINDO AO PROGRAMA AMD ULTIMATE CONNECTION PARTNER</h4>
-					<p>Cadastre-se e receba benefícios exclusivos que lhe permitirão fortalecer e fazer crescer seu negócio. <br>Cada uma das ferramentas que compõem o AMD Ultimate Connection são projetadas para apoiar sua transformação e crescer com você.</p>
+					<p>Inscreva-se e receba benefícios exclusivos que lhe permitirão fortalecer e impulsionar o crescimento de seus negócios. Cada uma das ferramentas que compõem a AMD Ultimate Connection foi projetada para apoiá-lo em sua transformação e crescer com você.</p>
 				</div>
 			</div>
 			<div class="row align-items-center">
@@ -57,11 +57,11 @@
 				</div>
 				<div class="col-12 col-md-6 col-lg-6 l-pt">
 					<ul class="losbullets">
-						<li>Opções de treinamento</li>
-						<li>Treinamento exclusivo ao vivo</li>
-						<li>Consultoria e suporte empresarial</li>
+						<li>Opções de treinamento.</li>
+						<li>Formação exclusiva</li>
+						<li>Apoio e aconselhamento empresarial</li>
 						<li>Recursos de marketing</li>
-						<li>Acesso a recompensas</li>
+						<li>Acesso a prémios</li>
 						<li>E mais</li>
 					</ul> 
 					<a href="javascript:;" class="lebtn btn-ghost">Quero me cadastrar!</a>
@@ -80,13 +80,13 @@
 			<div class="row">
 				<div class="col-12 col-md-6 col-lg-6 l-esp">
 					<h2>AMD ultimate<br>Connection</h2>
-					<p>Si ya preteneces a AMD Ultimate<br>Connection, inicia sesión aquí</p>
+					<p>Si ya perteneces a AMD Ultimate Connection,<br> inicia sesión aquí:</p>
 					<a href="login.php" class="lebtn btn-white">¡Quiero iniciar sesión!</a>
 				</div>
 				<div class="col-12 col-md-6 col-lg-6 l-pt">
 					<h2>AMD ultimate<br>Connection</h2>
-					<p>Se você já é um membro da<br>AMD Ultimate Connection, entre aqui</p>
-					<a href="login.php" class="lebtn btn-white">Eu quero entrar!</a>
+					<p>Se você já pertence à AMD Ultimate Connection,<br> entre aqui:</p>
+					<a href="login.php" class="lebtn btn-white">Quero começar!</a>
 				</div>
 			</div>
 		</div>

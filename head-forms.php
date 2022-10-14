@@ -34,7 +34,7 @@
 	<!-- |||||||||||||||||||||||||||||||||||||||| -->
 	<!-- Foms simpleheader  [↓] ----------------- -->
 	<!-- |||||||||||||||||||||||||||||||||||||||| -->
-	<section id="forms-header">
+	<section id="forms-header" class="nop">
 		<div class="row nop">
 			<div class="container d-flex justify-content-center">
 				<div class="col-8 col-md-6 col-lg-6 d-flex justify-content-center">

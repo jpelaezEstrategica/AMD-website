@@ -36,7 +36,7 @@
 						<div class="row">
 							<div class="col-12 col-md-4 col-lg-4">
 								<p><b>Descripción:</b> <br>
-								<span class="ruleData" id="ruleDesc">Los AMD Ryzen 5 valen doble puntos</span></p>
+								<span class="ruleData" id="ruleDesc">Los AMD Ryzen™ 5 valen doble puntos</span></p>
 							</div>
 							<div class="col-12 col-md-3 col-lg-3">
 								<p><b>Categoría del partner:</b><br>
@@ -62,20 +62,24 @@
 				<div class="row d-flex justify-content-center align-items-center">
 					<div class="col-11">
 						<h3>Editar</h3>
-						<p>Edita los detalles de la regla; no olvides mencionar el nombre del producto, si aplica. Guarda tus cambios al final.</p>
+						<p>Edita los detalles de la regla, no olvides guardar tus cambios al final.</p>
 						<form>
 							<div class="row nop d-flex justify-content-between">
-								<div class="col-12 col-md-4 col-lg-4">
+								<div class="col-12 col-md-6 col-lg-6">
 									<label class="color01" for="nruleName">Modifica nombre de la regla*:</label>
 									<input type="text" class="w-100" value="Dobles puntos Verano">
+									<!-- esta alerta solo aparece si se queda al guardar el campo esta vacio -->
+									<div class="invalid-feedback" style="display: block;">
+		      							Este campo no puede quedar vacio. Asigna un nombre.
+		    						</div>
 								</div>
-								<div class="col-12 col-md-5 col-lg-5">
+								<div class="col-12 col-md-6 col-lg-6">
 									<label class="color01" for="nruleDescrip">Modifica la descripción de la regla*:</label>
-									<input type="text" class="w-100" value="Los AMD Ryzen 5 valen doble puntos">
-								</div>
-								<div class="col-12 col-md-3 col-lg-3">
-									<label class="color01" for="nruleDescrip">Modifica el puntaje de la regla*:</label>
-									<input type="text" class="w-100" value="10">
+									<input type="text" class="w-100" value="Los AMD Ryzen™ 5 valen doble puntos">
+									<!-- esta alerta solo aparece si se queda al guardar el campo esta vacio -->
+									<div class="invalid-feedback" style="display: block;">
+		      							Este campo no puede quedar vacio. Agrega una descripción.
+		    						</div>
 								</div>
 							</div>
 						</form>
@@ -114,7 +118,7 @@
 			<!-- CARD [↑] ------------------------ -->
 			<div class="spacer-pm"></div>
 			<!-- CARD [↓] ------------------------ -->
-			<!-- <div class="card rounded-bottom">
+			<div class="card rounded-bottom">
 				<div class="row d-flex justify-content-center align-items-center">
 					<div class="col-11">
 						<h3>Establece el puntaje</h3>
@@ -203,7 +207,7 @@
 						</form>
 					</div>
 				</div>
-			</div> -->
+			</div>
 			<!-- CARD [↑] ------------------------ -->
 			<div class="spacer-pm"></div>
 			<div class="row d-flex justify-content-between">

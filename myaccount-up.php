@@ -5,14 +5,15 @@
 	<!-- Seccion Hero  [↓] ------------------------ -->
 	<!-- |||||||||||||||||||||||||||||||||||||||| -->
 	<section id="hero" class="hero hero-micuenta d-flex align-items-center">
+		
 		<div class="container">
 			<div class="row">
 				<div class="col-12">
 					<h2 class="nop">
-						<span class="typewritter">AMD RYZEN 5 TE</span><br><span class=" typewritter2">DA PUNTOS DOBLES<span class="terminal">_</span></span><br>
+						<span class="typewritter">AMD RYZEN™ 5 TE</span><br><span class=" typewritter2">DA PUNTOS DOBLES<span class="terminal">_</span></span><br>
 						<span class="mini">¡Juntos impulsamos tu negocio!</span>
 					</h2>
-					<p>Por eso, todas las ventas que logres de procesadores AMD Ryzen (TM)<br>5 Serie 6000, del 1 al 13 de noviembre, te harán ganar puntos dobles*. <br>
+					<p>Por eso, todas las ventas que logres de procesadores AMD Ryzen™ <br>5 Serie 6000, del 1 al 13 de noviembre, te harán ganar puntos dobles*. <br>
 					<b>Recuerda registrar tus facturas antes del  20 de noviembre de 2022</b></p>
 					<p>* Aplican restricciones</p>
 				</div>
@@ -50,8 +51,8 @@
 								<span id="accNombre">Luis González Gutiérrez</span></p>
 							</div>
 							<div class="col-12 col-md-4 col-lg-4">
-								<p><b>Puesto:</b><br>
-								<span id="AccPuesto">VAR / Commercial</span></p>
+								<p><b>Cargo:</b><br>
+								<span id="AccPuesto">Vendedor</span></p>
 							</div>
 							<div class="col-12 col-md-4 col-lg-4">
 								<p><b>Compañía:</b> <br>
@@ -92,73 +93,6 @@
 								<span class="macroF text-end">2,000</span>
 							</div>
 						</div>
-					</div>
-				</div>
-			</div>
-			<!-- CARD [↑] ------------------------ -->
-			<div class="spacer-pm"></div>
-			<!-- CARD [↓] ------------------------ -->
-			<div class="card rounded">
-				<div class="row d-flex justify-content-center align-items-center">
-					<div class="col-11">
-						<div class="row">
-							<div class="col-6 col-md-8 col-lg-10">
-								<h3>Histórico de puntos redimidos</h3>
-								<p>Consulta los puntos que has canjeado por premios a lo largo del tiempo. </p>
-							</div>
-						</div>
-						<div class="row">
-							<div class="col-12">
-								<table class="valuation-table2 sb-none td-7 d-md-block d-lg-block">
-									<tr class="valuation-head" bgcolor="#000000">
-										<td>No. Solicitud</td>
-										<td>Producto</td>
-										<td>ID Producto</td>
-										<td>Puntos Producto</td>
-										<td>Cantidad</td>
-										<td>Fecha de Aplicación</td>
-										<td>Puntos Redimidos</td>
-									</tr>
-									<tr class="border-bottom">
-										<td>12345</td>
-										<td>Pantalla</td>
-										<td>12141</td>
-										<td>200</td>
-										<td>2</td>
-										<td>30/03/2022</td>
-										<td>400</td>
-									</tr>
-									<tr class="border-bottom">
-										<td>12332</td>
-										<td>Celular</td>
-										<td>14312</td>
-										<td>100</td>
-										<td>1</td>
-										<td>31/03/2022</td>
-										<td>100</td>
-									</tr>
-									<tr class="border-bottom">
-										<td>12332</td>
-										<td>Reloj</td>
-										<td>14312</td>
-										<td>100</td>
-										<td>1</td>
-										<td>31/03/2022</td>
-										<td>50</td>
-									</tr>
-									<tr class="border-bottom">
-										<td>&nbsp;</td>
-										<td>&nbsp;</td>
-										<td>&nbsp;</td>
-										<td>&nbsp;</td>
-										<td>&nbsp;</td>
-										<td><b>Total de puntos redimidos</b></td>
-										<td>550</td>
-									</tr>
-								</table>
-							</div>
-						</div>
-
 					</div>
 				</div>
 			</div>
@@ -235,6 +169,73 @@
 								<a href="javascript:;" class="lebtn btn-main">Registrar factura</a>
 							</div>
 						</div>
+					</div>
+				</div>
+			</div>
+			<!-- CARD [↑] ------------------------ -->
+			<div class="spacer-pm"></div>
+			<!-- CARD [↓] ------------------------ -->
+			<div class="card rounded">
+				<div class="row d-flex justify-content-center align-items-center">
+					<div class="col-11">
+						<div class="row">
+							<div class="col-6 col-md-8 col-lg-10">
+								<h3>Histórico de puntos redimidos</h3>
+								<p>Consulta los puntos que has canjeado por premios a lo largo del tiempo. </p>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-12">
+								<table class="valuation-table2 sb-none td-7 d-md-block d-lg-block">
+									<tr class="valuation-head" bgcolor="#000000">
+										<td>No. Solicitud</td>
+										<td>Producto</td>
+										<td>ID Producto</td>
+										<td>Puntos Producto</td>
+										<td>Cantidad</td>
+										<td>Fecha de Aplicación</td>
+										<td>Puntos Redimidos</td>
+									</tr>
+									<tr class="border-bottom">
+										<td>12345</td>
+										<td>Pantalla</td>
+										<td>12141</td>
+										<td>200</td>
+										<td>2</td>
+										<td>30/03/2022</td>
+										<td>400</td>
+									</tr>
+									<tr class="border-bottom">
+										<td>12332</td>
+										<td>Celular</td>
+										<td>14312</td>
+										<td>100</td>
+										<td>1</td>
+										<td>31/03/2022</td>
+										<td>100</td>
+									</tr>
+									<tr class="border-bottom">
+										<td>12332</td>
+										<td>Reloj</td>
+										<td>14312</td>
+										<td>100</td>
+										<td>1</td>
+										<td>31/03/2022</td>
+										<td>50</td>
+									</tr>
+									<tr class="border-bottom">
+										<td>&nbsp;</td>
+										<td>&nbsp;</td>
+										<td>&nbsp;</td>
+										<td>&nbsp;</td>
+										<td>&nbsp;</td>
+										<td><b>Total de puntos redimidos</b></td>
+										<td>550</td>
+									</tr>
+								</table>
+							</div>
+						</div>
+
 					</div>
 				</div>
 			</div>

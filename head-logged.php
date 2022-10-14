@@ -42,16 +42,23 @@
 							<a href="index.php"><h1 class="main-logo txt2img">AMD Ultimate connection</h1></a>
 						</div>
 						<div class="col-12 col-md-6 col-lg-4 d-flex justify-content-end" id="login-sec">
+									<a id="lang-esp" class="lang-switch active-lang"><span class="phoca-flag es"></span></a>
+		      						<a id="lang-port" class="lang-switch"><span class="phoca-flag br"></span></a>
 							<div class="dropdown">
-								<button class="dropdown-toggle lebtn lebtn-w100 btn-login text-center" id="loginDrop" type="button">Bienvenido [user name]</button>
+								<button class="dropdown-toggle lebtn lebtn-w100 btn-login text-center l-esp" id="loginDrop" type="button">Hola [user name]</button>
+								<button class="dropdown-toggle lebtn lebtn-w100 btn-login text-center l-pt" id="loginDrop" type="button">Olá [user name]</button>
 							</div>
 							<ul class="dropdown-menu" id="userlog-nav">
-							    <li><a class="dropdown-item" href="cp-home.php">Mi perfil</a></li>
-							    <li><a class="dropdown-item" href="myaccount-up.php">Mi cuenta</a></li>
-							    <li><a class="dropdown-item" href="javascript:;">Recompensas para socios</a></li>
-							    <li><a class="dropdown-item" href="javascript:;">Términos y Condiciones</a></li>
+							    <li><a class="dropdown-item l-esp" href="cp-home.php">Mi perfil</a></li>
+							    <li><a class="dropdown-item l-esp" href="myaccount-up.php">Mi cuenta</a></li>
+							    <li><a class="dropdown-item l-esp" href="javascript:;">Recompensas para socios</a></li>
+							    <li><a class="dropdown-item l-esp" href="javascript:;">Términos y Condiciones</a></li>
+							    <li><a class="dropdown-item l-pt" href="cp-home.php">Meu perfil</a></li>
+							    <li><a class="dropdown-item l-pt" href="myaccount-up.php">Minha conta</a></li>
+							    <li><a class="dropdown-item l-pt" href="javascript:;">Recompensas para parceiros</a></li>
+							    <li><a class="dropdown-item l-pt" href="javascript:;">Termos e condições</a></li>
 							  </ul>
-							&nbsp;&nbsp;|&nbsp;&nbsp; <a href="javascript:;" class="lebtn btn-ghost">Salir <i class="fa-solid fa-right-from-bracket"></i></a>
+							&nbsp;&nbsp;|&nbsp;&nbsp; <a href="javascript:;" class="lebtn btn-ghost l-esp">Salir <i class="fa-solid fa-right-from-bracket"></i></a><a href="javascript:;" class="lebtn btn-ghost l-pt">Salir <i class="fa-solid fa-right-from-bracket"></i></a>
 						</div>
 				</div>
 			</div>
@@ -72,8 +79,6 @@
 		      		<a href="https://twitter.com/amd" target="_blank"><i class="fab fa-twitter"></i></a>
 		      		<a href="https://www.linkedin.com/company/amd/" target="_blank"><i class="fab fa-linkedin"></i></a>
 		      		<a href="https://www.youtube.com/user/amd" target="_blank"><i class="fab fa-youtube"></i></a>
-		      		<a id="lang-esp" class="lang-switch active-lang"><span class="phoca-flag es"></span></a>
-		      		<a id="lang-port" class="lang-switch"><span class="phoca-flag br"></span></a>
 		      	</span>
 		        <li class="nav-item l-esp">
 		          <a class="nav-link current" aria-current="page" href="index.php">Inicio</a>

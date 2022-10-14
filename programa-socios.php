@@ -32,22 +32,22 @@
 					<h3 class="l-pt">Juntos avançamos<span class="terminal">_</span> e crescemos</h3>
 				</div>
 			</div>
-			<div class="row align-items-center justify-content-center nop">
+			<div class="row align-items-center  nop">
 				<div class="col-12 col-md-5 col-lg-5">
 					<img class="img-fluid pb-5" src="assets/img/programa-socios.png" alt="Partners AMD Ultimate Connection en una sala de juntas">
 				</div>
 				<div class="col-12 col-md-6 col-lg-6 l-esp">
 					<h4>Bienvenidos al programa para partners AMD Ultimate Connection</h4>
 					<p>Inscríbete y recibe beneficios exclusivos que te ayudarán a impulsar el crecimiento de tu negocio. Cada una de las herramientas que integran AMD Ultimate Connection fueron pensadas para apoyarte en tu transformación y crecer junto a ti.</p>
-					<a href="javascript:;" class="lebtn btn-white">¡Quiero registrarme!</a>
+					<a href="cp-nuevousuario.php" class="lebtn btn-white">¡Quiero registrarme!</a>
 				</div>
 				<div class="col-12 col-md-6 col-lg-6 l-pt">
 					<h4>BEM-VINDO AO PROGRAMA AMD ULTIMATE CONNECTION PARTNER</h4>
 					<p>Cadastre-se e receba benefícios exclusivos que o ajudarão a impulsionar seu crescimento comercial. Cada uma das ferramentas que compõem o AMD Ultimate Connection foi projetada para apoiar sua transformação e crescer com você.</p>
-					<a href="javascript:;" class="lebtn btn-white">Eu quero me registrar!</a>
+					<a href="cp-nuevousuario.php" class="lebtn btn-white">Eu quero me registrar!</a>
 				</div>
 			</div>
-			<div class="row justify-content-center justify-content-center nop">
+			<div class="row justify-content-center nop">
 				<div class="col-12 col-md-4 col-lg-4 d-flex mb-4">
 					<div class="icon-bg circled">
 						<i class="fa-solid fa-glasses"></i>
@@ -95,9 +95,9 @@
 		</div>
 		<div class="container">
 			<div class="row nop d-flex justify-content-center">
-				<div class="col-6 col-md-4 col-lg-4 d-flex justify-content-center">
-					<a href="login-section.php" class="lebtn btn-white l-esp">Iniciar Sesión</a>
-					<a href="login-section.php" class="lebtn btn-white l-pt">Fazer login</a>
+				<div class="col-6 col-md-6 col-lg-6 d-flex justify-content-center">
+					<a href="login-section.php" class="lebtn btn-white w-100 l-esp">Iniciar Sesión</a>
+					<a href="login-section.php" class="lebtn btn-white w-100 l-pt">Fazer login</a>
 				</div>
 			</div>
 		</div>

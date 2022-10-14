@@ -22,8 +22,8 @@
 							<label for="regionrules">Región</label><br>
 							<select name="regiorules" id="regionrules" class="w-75">
 								<option value="0">Selecciona la región</option>
-								<option value="program-manager-mxycac.php" selected>México y CAC</option>
-								<option value="program-manager-ssa.php">SSA</option>
+								<option value="program-manager-mxycac.php">México y CAC</option>
+								<option value="program-manager-ssa.php" selected>SSA</option>
 								<option value="program-manager-br.php">Brasil</option>
 								<!-- <option value="mxycac">México y CAC</option> -->
 								<!-- <option value="ssa">SSA</option> -->
@@ -70,7 +70,7 @@
 					<div class="col-11">
 						<div class="row">
 							<div class="col-6 col-md-8 col-lg-10">
-								<h3>Listado de puntajes México y CAC</h3>
+								<h3>Listado de puntajes SSA</h3>
 							</div>
 							<div class="col-6 col-md-4 col-lg-2 d-flex justify-content-around partnerActions">
 								<a href="#" class="d-inline-block rounded-circle pAction active" data-bs-toggle="tooltip" data-bs-placement="top" title="Consultar catálogo de reglas"><i class="fa-solid fa-book"></i></a>
@@ -82,11 +82,11 @@
 						<div class="row">
 							<div class="col-12 col-md-4 col-lg-4">
 								<p><b>Región:</b><br>
-								<span class="ruleData" id="ruleRegion">México y CAC</span></p>
+								<span class="ruleData" id="ruleRegion">SSA</span></p>
 							</div>
 							<div class="col-12 col-md-4 col-lg-4">
 								<p><b>Categoría del partner:</b><br>
-								<span class="ruleData" id="ruleCat">VAR/Components</span></p>
+								<span class="ruleData" id="ruleCat">VAR/Commercial</span></p>
 							</div>
 							<div class="col-12 col-md-4 col-lg-4">
 								<p><b>Nivel del socio:</b> <br>
@@ -103,9 +103,9 @@
 			<div class="card rounded-bottom">
 				<div class="row d-flex justify-content-center align-items-center">
 					<div class="col-11">
-						<h2>Listado de puntajes México y CAC</h2>
+						<h2>Listado de puntajes SSA</h2>
 						<div class="row justify-content-end">
-							<h3>Categoría VAR/Components</h3>
+							<h3>Categoría VAR/Commercial</h3>
 							<table class="valuation-table2 sb-none td-6 d-none d-md-block d-lg-block">
 								<tr bgcolor="#000000" class="valuation-head">
 									<td>Nombre</td>
@@ -125,13 +125,13 @@
 									<td>AMD Ryzen™ 5 </td>
 									<td>5 puntos</td>
 									<td>10 pt</td>
-									<td><a href="#" class="d-inline-block rounded-circle rAction" data-bs-toggle="tooltip" data-bs-placement="top" title="Modificar Estado"><i class="fa-solid fa-toggle-on"></i></a></td>
+									<td><a href="#" class="d-inline-block rounded-circle rAction" data-bs-toggle="tooltip" data-bs-placement="top" title="Activa / Inactiva"><i class="fa-solid fa-toggle-on"></i></a></td>
 								</tr>
 								<tr>
 									<td>AMD Ryzen™ Threadripper™ </td>
 									<td>11 puntos</td>
 									<td>22 pt</td>
-									<td><a href="#" class="d-inline-block rounded-circle rAction" data-bs-toggle="tooltip" data-bs-placement="top" title="Modificar Estado"><i class="fa-solid fa-toggle-on"></i></a></td>
+									<td><a href="#" class="d-inline-block rounded-circle rAction" data-bs-toggle="tooltip" data-bs-placement="top" title="Activa / Inactiva"><i class="fa-solid fa-toggle-on"></i></a></td>
 								</tr>
 							</table>
 							<table class="valuation-table2 td-3 sb-none d-block d-md-none d-lg-none w-100">
@@ -174,67 +174,67 @@
 									<td>Productos</td>
 									<td>Estado regla</td>
 									<td>Puntaje</td>
-									<td align="center">Estado Puntaje</td>
+									<td align="center">Modificar Estado</td>
 								</tr>
 								<tr>
 									<td>AMD Ryzen™ 3</td>
 									<td>Activo</td>
 									<td>3 puntos</td>
-									<td align="center"><a href="#" class="d-inline-block rounded-circle rAction" data-bs-toggle="tooltip" data-bs-placement="top" title="Modificar Estado"><i class="fa-solid fa-toggle-on"></i></a></td>
+									<td align="center"><a href="#" class="d-inline-block rounded-circle rAction" data-bs-toggle="tooltip" data-bs-placement="top" title="Activa / Inactiva"><i class="fa-solid fa-toggle-on"></i></a></td>
 								</tr>
 								<tr>
 									<td>AMD Ryzen™ 5</td>
 									<td>Inactivo</td>
 									<td>5 puntos</td>
-									<td align="center"><a href="#" class="d-inline-block rounded-circle rAction" data-bs-toggle="tooltip" data-bs-placement="top" title="Modificar Estado"><i class="fa-solid fa-toggle-off"></i></a></td>
+									<td align="center"><a href="#" class="d-inline-block rounded-circle rAction" data-bs-toggle="tooltip" data-bs-placement="top" title="Activa / Inactiva"><i class="fa-solid fa-toggle-off"></i></a></td>
 								</tr>
 								<tr>
 									<td>AMD Ryzen™ 7</td>
 									<td>Activo</td>
 									<td>7 puntos</td>
-									<td align="center"><a href="#" class="d-inline-block rounded-circle rAction" data-bs-toggle="tooltip" data-bs-placement="top" title="Modificar Estado"><i class="fa-solid fa-toggle-on"></i></a></td>
+									<td align="center"><a href="#" class="d-inline-block rounded-circle rAction" data-bs-toggle="tooltip" data-bs-placement="top" title="Activa / Inactiva"><i class="fa-solid fa-toggle-on"></i></a></td>
 								</tr>
 								<tr>
 									<td>AMD Ryzen™ 9</td>
 									<td>Activo</td>
 									<td>9 puntos</td>
-									<td align="center"><a href="#" class="d-inline-block rounded-circle rAction" data-bs-toggle="tooltip" data-bs-placement="top" title="Modificar Estado"><i class="fa-solid fa-toggle-on"></i></a></td>
+									<td align="center"><a href="#" class="d-inline-block rounded-circle rAction" data-bs-toggle="tooltip" data-bs-placement="top" title="Activa / Inactiva"><i class="fa-solid fa-toggle-on"></i></a></td>
 								</tr>
 								<tr>
 									<td>AMD Ryzen™ Threadripper™</td>
 									<td>Inactivo</td>
 									<td>11 puntos</td>
-									<td align="center"><a href="#" class="d-inline-block rounded-circle rAction" data-bs-toggle="tooltip" data-bs-placement="top" title="Modificar Estado"><i class="fa-solid fa-toggle-off"></i></a></td>
+									<td align="center"><a href="#" class="d-inline-block rounded-circle rAction" data-bs-toggle="tooltip" data-bs-placement="top" title="Activa / Inactiva"><i class="fa-solid fa-toggle-off"></i></a></td>
 								</tr>
 								<tr>
 									<td>AMD EPYC™ 8-12n</td>
 									<td>Activo</td>
 									<td>17 puntos</td>
-									<td align="center"><a href="#" class="d-inline-block rounded-circle rAction" data-bs-toggle="tooltip" data-bs-placement="top" title="Modificar Estado"><i class="fa-solid fa-toggle-on"></i></a></td>
+									<td align="center"><a href="#" class="d-inline-block rounded-circle rAction" data-bs-toggle="tooltip" data-bs-placement="top" title="Activa / Inactiva"><i class="fa-solid fa-toggle-on"></i></a></td>
 								</tr>
 								<tr>
 									<td>AMD EPYC™ 16-32n</td>
 									<td>Activo</td>
 									<td>29 puntos</td>
-									<td align="center"><a href="#" class="d-inline-block rounded-circle rAction" data-bs-toggle="tooltip" data-bs-placement="top" title="Modificar Estado"><i class="fa-solid fa-toggle-on"></i></a></td>
+									<td align="center"><a href="#" class="d-inline-block rounded-circle rAction" data-bs-toggle="tooltip" data-bs-placement="top" title="Activa / Inactiva"><i class="fa-solid fa-toggle-on"></i></a></td>
 								</tr>
 								<tr>
 									<td>AMD EPYC™ 48-56n </td>
 									<td>Activo</td>
 									<td>43puntos</td>
-									<td align="center"><a href="#" class="d-inline-block rounded-circle rAction" data-bs-toggle="tooltip" data-bs-placement="top" title="Modificar Estado"><i class="fa-solid fa-toggle-on"></i></a></td>
+									<td align="center"><a href="#" class="d-inline-block rounded-circle rAction" data-bs-toggle="tooltip" data-bs-placement="top" title="Activa / Inactiva"><i class="fa-solid fa-toggle-on"></i></a></td>
 								</tr>
 								<tr>
 									<td>AMD EPYC™ 64n </td>
 									<td>Activo</td>
 									<td>76 puntos</td>
-									<td align="center"><a href="#" class="d-inline-block rounded-circle rAction" data-bs-toggle="tooltip" data-bs-placement="top" title="Modificar Estado"><i class="fa-solid fa-toggle-on"></i></a></td>
+									<td align="center"><a href="#" class="d-inline-block rounded-circle rAction" data-bs-toggle="tooltip" data-bs-placement="top" title="Activa / Inactiva"><i class="fa-solid fa-toggle-on"></i></a></td>
 								</tr>
 								<tr>
 									<td>AMD™ Arena´s Missions </td>
 									<td>Activo</td>
 									<td>5 puntos</td>
-									<td align="center"><a href="#" class="d-inline-block rounded-circle rAction" data-bs-toggle="tooltip" data-bs-placement="top" title="Modificar Estado"><i class="fa-solid fa-toggle-on"></i></a></td>
+									<td align="center"><a href="#" class="d-inline-block rounded-circle rAction" data-bs-toggle="tooltip" data-bs-placement="top" title="Activa / Inactiva"><i class="fa-solid fa-toggle-on"></i></a></td>
 								</tr>
 							</table>
 							<div class="col-12 col-md-4 col-lg-4 pt-5">

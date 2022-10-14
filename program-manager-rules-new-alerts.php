@@ -11,71 +11,36 @@
 					<h2 class="dressedh1">Administración de reglas de puntaje<span class="terminal">_</span></h2>
 					<p>Registra o modifica las reglas y equivalencias de puntaje por categoría. También, podrás consultar las reglas actuales.</p>
 				</div>
-			</div><!-- 
+			</div>
+			<!-- 
 			<hr>
 			<div class="row nop">
 				<h2>Consultar o registrar reglas de puntaje</h2>
 				<p>Localiza las reglas de puntaje que deseas registrar o consultar o modificar buscando la categoría, región o producto o estado.</p>
-				
-				<?php// include 'filtro-rules.php' ?>
+				<?php //include 'filtro-rules.php' ?>
 			</div> -->
 			<div class="spacer-pm"></div>
 			<!-- CARD [↓] ------------------------ -->
-			<div class="card rounded">
+			<div class="card rounded-top">
 				<div class="row d-flex justify-content-center align-items-center">
 					<div class="col-11">
-						<div class="row">
-							<div class="col-6 col-md-8 col-lg-10">
-								<!-- Nombre de la regla -->
-								<h3>Dobles puntos verano</h3>
-							</div>
-							<div class="col-6 col-md-4 col-lg-2 d-flex justify-content-end partnerActions">
-								<a href="javascript:;" class="d-inline-block rounded-circle pAction" data-bs-toggle="tooltip" data-bs-placement="top" title="Activa/Inactiva"><i class="fa-solid fa-toggle-on"></i></a>
-							</div>
-						</div>
-						<div class="row">
-							<div class="col-12 col-md-4 col-lg-4">
-								<p><b>Descripción:</b> <br>
-								<span class="ruleData" id="ruleDesc">Los AMD Ryzen 5 valen doble puntos</span></p>
-							</div>
-							<div class="col-12 col-md-3 col-lg-3">
-								<p><b>Categoría del partner:</b><br>
-								<span class="ruleData" id="ruleCat">VAR/Commercial</span></p>
-							</div>
-							<div class="col-12 col-md-2 col-lg-2">
-								<p><b>Puntaje:</b> <br>
-								<span class="ruleData" id="rulePts">10</span></p>
-							</div>
-							<div class="col-12 col-md-3 col-lg-3">
-								<p><b>Estado de la regla:</b> <br>
-								<span class="ruleData" id="ruleStatus">Activa</span></p>
-							</div>
-						</div>
-
-					</div>
-				</div>
-			</div>
-			<!-- CARD [↑] ------------------------ -->
-			<div class="spacer-pm"></div>
-			<!-- CARD [↓] ------------------------ -->
-			<div class="card">
-				<div class="row d-flex justify-content-center align-items-center">
-					<div class="col-11">
-						<h3>Editar</h3>
-						<p>Edita los detalles de la regla; no olvides mencionar el nombre del producto, si aplica. Guarda tus cambios al final.</p>
+						<h3>Establece una nueva regla</h3>
+						<p>Registra el nombre y detalle de la nueva regla. Recuerda incluir en el nombre, la región y nivel de socio si aplica.</p>
 						<form>
 							<div class="row nop d-flex justify-content-between">
-								<div class="col-12 col-md-4 col-lg-4">
-									<label class="color01" for="nruleName">Modifica nombre de la regla*:</label>
-									<input type="text" class="w-100" value="Dobles puntos Verano">
+								<div class="col-12 col-md-6 col-lg-6">
+									<label class="color01"for="nruleName">Registra nombre de la regla*:</label>
+									<input type="text" class="w-100" placeholder="Dobles puntos AMD Ryzen™ 5 México">
+								    <div class="invalid-feedback" style="display: block;">
+		      							Este campo es obligatorio. Asigna un nombre.
+		    						</div>									
 								</div>
-								<div class="col-12 col-md-5 col-lg-5">
-									<label class="color01" for="nruleDescrip">Modifica la descripción de la regla*:</label>
-									<input type="text" class="w-100" value="Los AMD Ryzen 5 valen doble puntos">
-								</div>
-								<div class="col-12 col-md-3 col-lg-3">
-									<label class="color01" for="nruleDescrip">Modifica el puntaje de la regla*:</label>
-									<input type="text" class="w-100" value="10">
+								<div class="col-12 col-md-6 col-lg-6">
+									<label class="color01"for="nruleDescrip">Descripción de la regla*:</label>
+									<input type="text" class="w-100" placeholder="Ej. Dobles puntos durante todo el trimestre">
+								    <div class="invalid-feedback" style="display: block;">
+		      							Este campo es obligatorio. Agrega una descripción.
+		    						</div>
 								</div>
 							</div>
 						</form>
@@ -114,7 +79,7 @@
 			<!-- CARD [↑] ------------------------ -->
 			<div class="spacer-pm"></div>
 			<!-- CARD [↓] ------------------------ -->
-			<!-- <div class="card rounded-bottom">
+			<div class="card rounded-bottom">
 				<div class="row d-flex justify-content-center align-items-center">
 					<div class="col-11">
 						<h3>Establece el puntaje</h3>
@@ -133,7 +98,7 @@
 									<p class="nop">AMD Ryzen™ 5</p>
 								</div>
 								<div class="col-12 col-md-6 col-lg-6">
-									<input type="text" class="w-100" value="10">
+									<input type="text" class="w-100" placeholder="Coloca el puntaje">
 								</div>
 							</div>
 							<div class="row d-flex justify-content-between puntajesnuevos">
@@ -203,7 +168,7 @@
 						</form>
 					</div>
 				</div>
-			</div> -->
+			</div>
 			<!-- CARD [↑] ------------------------ -->
 			<div class="spacer-pm"></div>
 			<div class="row d-flex justify-content-between">
@@ -212,7 +177,7 @@
 					<a href="javscript:;" data-bs-toggle="modal" data-bs-target="#alertaSalvarRegla" class="lebtn btn-main">Volver a mi cuenta</a>
 				</div>
 				<div class="col-12 col-md-5 col-lg-5">
-					<a href="javascript:;"  data-bs-toggle="modal" data-bs-target="#alertaConfirmEditRegla"  class="lebtn btn-main">Guardar</a>
+					<a href="javascript:;"  data-bs-toggle="modal" data-bs-target="#alertaNuevaRegla"  class="lebtn btn-main">Guardar</a>
 				</div>
 			</div>
 		</div>

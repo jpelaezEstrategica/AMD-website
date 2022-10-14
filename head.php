@@ -43,6 +43,8 @@
 							<a href="index.php"><h1 class="main-logo txt2img">AMD Ultimate connection</h1></a>
 						</div>
 						<div class="col-12 col-md-9 col-lg-9 d-flex justify-content-end" id="login-sec">
+							<a id="lang-esp" class="lang-switch active-lang"><span class="phoca-flag es"></span></a>
+		      						<a id="lang-port" class="lang-switch"><span class="phoca-flag br"></span></a>
 							<a href="login.php" class="lebtn btn-login l-esp">Iniciar sesión</a>
 							<a href="login.php" class="lebtn btn-login l-pt">Iniciar sessão</a>
 							<a href="javascript:;" class="lebtn btn-main l-esp">Regístrate</a>
@@ -67,8 +69,6 @@
 		      		<a href="https://twitter.com/amd" target="_blank"><i class="fab fa-twitter"></i></a>
 		      		<a href="https://www.linkedin.com/company/amd/" target="_blank"><i class="fab fa-linkedin"></i></a>
 		      		<a href="https://www.youtube.com/user/amd" target="_blank"><i class="fab fa-youtube"></i></a>
-		      		<a id="lang-esp" class="lang-switch active-lang"><span class="phoca-flag es"></span></a>
-		      		<a id="lang-port" class="lang-switch"><span class="phoca-flag br"></span></a>
 		      	</span>
 		        <li class="nav-item l-esp">
 		          <a class="nav-link current" aria-current="page" href="index.php">Inicio</a>

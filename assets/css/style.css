@@ -9,6 +9,7 @@ ul.losbullets li{ list-style: url('../img/bullet.png'); padding-bottom: 15px;}
 .txt2img{display: block;text-indent: -999999px;}
 .c-01{color: #191919;}
 .c-02{color: #ffffff;}
+.color01{color: #000;}
 .terminal{line-height: 0; animation: terminal 300ms ease-in-out 0s infinite alternate;}
 .typewritter{display: inline-block;overflow: hidden;white-space: nowrap; margin: 0 auto; width: 0; letter-spacing: 0.05em; animation: typing 3500ms steps(50, end) 500ms forwards;}
 .typewritter2{display: inline-block;overflow: hidden;white-space: nowrap; margin: 0 auto; width: 0; letter-spacing: 0.05em; animation: typing 3500ms steps(50, end) 1500ms forwards;}
@@ -20,7 +21,7 @@ ul.losbullets li{ list-style: url('../img/bullet.png'); padding-bottom: 15px;}
   from { width: 0 }
   to { width: 100% }
 }
-
+.fix-h{display: block;min-height: 100px;}
 /* <!-- |||||||||||||||||||||||||||||||||||||||| -->*/
 /* <!-- BOTONES ||||||||||||||||||||||||||||||||| -->*/
 /* <!-- |||||||||||||||||||||||||||||||||||||||| -->*/
@@ -51,12 +52,14 @@ form input{border: solid 1px #ffffff;}
 /* form input[type="radio"], form input[type="checkbox"]{width: inherit!important;} */
 select{background: #efefef;}
 .card input, .card select{width: 100%;}
-.card input[type="text"], .card input[type="date"] {border:  solid 1px #d1d1d1; border-radius: 10px!important; padding: 12px;}
+.card input[type="text"], .card input[type="date"], .card input[type="number"]{border:  solid 1px #d1d1d1; border-radius: 10px!important; padding: 12px;}
+input.asCard {border: solid 1px #d1d1d1;border-radius: 0;padding: 5px 10px;}
 .card input[type="radio"], .card input[type="checkbox"]{width: initial!important; margin: 0 5px;}
 .telefonoinputs select{width: 30%!important; margin: 0; border-radius: 10px  0 0 10px!important; padding: 9px 10px; vertical-align: top;}
-.card .telefonoinputs input[type="text"]{width: 68%!important; margin: 0 -5px; padding: 10px; border-radius: 0 10px 10px 0!important;}
+.card .telefonoinputs input[type="text"], .card .telefonoinputs input[type="number"]{width: 68%!important; margin: 0 -5px; padding: 10px; border-radius: 0 10px 10px 0!important;}
 label{font-size: 14px; color: #777777;}
 .remind{font-size: 14px;}
+
 
 /* <!-- |||||||||||||||||||||||||||||||||||||||| -->*/
 /* <!-- HEADER & NAV ||||||||||||||||||||||||||| -->*/
@@ -113,9 +116,9 @@ sup{font-size: 0.5em!important;top: -1em!important; font-weight: normal!importan
 .form-select option{ background: #000; }
 
 /* botones edit partners */
-.partnerActions a{background: #FFF; width: 32px; height: 32px; text-align: center;line-height: 32px; color: #000000; border: solid 1px #000; transition: 300ms all ease-in-out}
+.partnerActions a{background: #FFF; width: 32px; height: 32px; text-align: center;line-height: 32px; color: #000000;transition: 300ms all ease-in-out; font-size: 22px; /* border: solid 1px #000;  */}
 .valuation-table2 a.rAction{background: #FFF; width: 32px; height: 32px; text-align: center;line-height: 32px; color: #000000; font-size: 25px;  transition: 300ms all ease-in-out}
-.partnerActions a:hover, .pAction.active{background: #000; color: #FFFFFF;}
+.partnerActions a:hover, .pAction.active{background: #fff; color: #c4c4c4;}
 
 
 
